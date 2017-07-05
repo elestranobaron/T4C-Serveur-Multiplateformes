@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{82d14b70-e29b-460f-8885-507a96a1688a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c714359a-91c9-43d1-9b9a-156290d294dd}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Amelia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnthorTheMad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Antonian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aquinos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BedNomad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueShardChest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BookshelfNomad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BookshelfNomad2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BookshelfNomad3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Carman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CarmanSpawner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosEastExitPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosEastToCenterPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosSouthExitPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosSouthToCenterPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosWestExitPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosWestToCenterPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crimsonscale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CrystalPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Custodian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefilementPortal1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefilementPortal2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeskNomad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorEfnisien2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorGluriurl1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorGluriurl2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorGunthar1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorNomad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorOlinHaad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Doppelganger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal1a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal1b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal2a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal2b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal3a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal3b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal4a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal4b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal5a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal5b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal6a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal6b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal7a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal7b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal8a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoppelgangerPortal8b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DraconisGuardian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Efnisien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fenrir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Filandrius.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FountainOfKnowledge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gluriurl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GorlokBloodaxe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenShardChest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildLeaderEthan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gypsy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HarvesterOfLife.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HarvesterPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HighPriestGunthar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HighPriestGunthar2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvisibleMazeExitPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jormungand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Librarian1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Librarian2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Librarian3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lothar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeExitPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalChestNomad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalChestNomad2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalChestNomad3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMercenaryA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMercenaryB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMercenaryC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMercenaryLeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMercenaryLieutenantA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMercenaryLieutenantB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMercenaryLieutenantC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMordred.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBObsidianConclaveKnight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBOlinHaadGuard3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBOlinHaadGuard4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterStatSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MordredChest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NamelessBard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NexusStone9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OfferingAltar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OlinHaad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OlinHaad2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OlinHaad3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OlinHaadAssassin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OlinHaadCommander.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OlinHaadEliteGuard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OlinToStrongholdPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintingNomad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalSpellDruidPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalSpellLighthaven.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalSpellSilversky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalSpellStonecrest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalSpellSunkenWoods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalSpellWindhowl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalSpellWizardVale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ramirgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RedShardChest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribcage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RibCageEntrancePortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RibCageExitPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SanctuaryGuardian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scholar1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scholar2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scholar3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scholar4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeFountain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongholdRandomChest1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongholdRandomChest2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongholdRandomChest3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongholdRandomChest4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongholdRandomChest5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongholdRandomChest6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongholdRandomChest7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongholdToOlinPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SufferingPortal1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SufferingPortal2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableNomad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tarnian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeOfWisdom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tristan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Urik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UrikThief.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VicarAsgoth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VicarKervian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VicarRamiel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VicarVharmes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VincentSwiftblade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhirlpoolMazeExitPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindhowlSentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodenChestNomad1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodenChestNomad2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodenChestNomad3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Amelia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnthorTheMad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Antonian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aquinos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BedNomad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueShardChest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookshelfNomad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookshelfNomad2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookshelfNomad3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarmanSpawner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosEastExitPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosEastToCenterPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosSouthExitPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosSouthToCenterPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosWestExitPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosWestToCenterPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crimsonscale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CrystalPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Custodian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefilementPortal1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefilementPortal2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeskNomad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorEfnisien2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorGluriurl1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorGluriurl2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorGunthar1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorNomad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorOlinHaad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Doppelganger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal1a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal1b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal2a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal2b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal3a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal3b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal4a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal4b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal5a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal5b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal6a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal6b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal7a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal7b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal8a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoppelgangerPortal8b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DraconisGuardian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Efnisien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fenrir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Filandrius.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FountainOfKnowledge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gluriurl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GorlokBloodaxe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenShardChest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildLeaderEthan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gypsy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HarvesterOfLife.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HarvesterPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HighPriestGunthar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HighPriestGunthar2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InvisibleMazeExitPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jormungand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Librarian1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Librarian2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Librarian3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lothar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeExitPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalChestNomad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalChestNomad2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalChestNomad3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMercenaryA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMercenaryB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMercenaryC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMercenaryLeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMercenaryLieutenantA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMercenaryLieutenantB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMercenaryLieutenantC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMordred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBObsidianConclaveKnight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBOlinHaadGuard3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBOlinHaadGuard4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MordredChest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NamelessBard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusStone9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OfferingAltar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OlinHaad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OlinHaad2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OlinHaad3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OlinHaadAssassin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OlinHaadCommander.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OlinHaadEliteGuard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OlinToStrongholdPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintingNomad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalSpellDruidPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalSpellLighthaven.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalSpellSilversky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalSpellStonecrest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalSpellSunkenWoods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalSpellWindhowl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalSpellWizardVale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ramirgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RedShardChest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribcage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RibCageEntrancePortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RibCageExitPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SanctuaryGuardian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scholar1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scholar2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scholar3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scholar4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeFountain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongholdRandomChest1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongholdRandomChest2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongholdRandomChest3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongholdRandomChest4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongholdRandomChest5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongholdRandomChest6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongholdRandomChest7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongholdToOlinPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SufferingPortal1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SufferingPortal2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TableNomad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tarnian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeOfWisdom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tristan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Urik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UrikThief.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VicarAsgoth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VicarKervian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VicarRamiel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VicarVharmes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VincentSwiftblade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WhirlpoolMazeExitPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindhowlSentry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodenChestNomad1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodenChestNomad2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodenChestNomad3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

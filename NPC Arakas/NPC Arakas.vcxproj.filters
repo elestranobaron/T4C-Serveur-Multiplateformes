@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e4db54af-3405-49d0-855f-9ed2e61c7a69}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7076b1d8-e95e-4e09-964a-8d9b29981a81}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Annabelle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Asarr.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DorkenRotsmell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dunikus.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jarko.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Karahn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LanceSilversmith.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lantalir.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LighthavenSamaritan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lyria.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mhorgwloth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mirandul.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterStatSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCGoblinScout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCGoblinWarrior.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OldHermit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenegadeOrcLeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SebanForgelot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Totak.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindhowlSamaritan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Yrian.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Annabelle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Asarr.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DorkenRotsmell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dunikus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jarko.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Karahn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LanceSilversmith.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lantalir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LighthavenSamaritan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lyria.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhorgwloth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mirandul.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCGoblinScout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCGoblinWarrior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OldHermit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenegadeOrcLeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SebanForgelot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Totak.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindhowlSamaritan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Yrian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ec11b83f-a3a8-4cad-bba9-8386cd534736}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7740de82-227b-454e-834f-759aaf640ce3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AaronBrownbark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Adriana.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AloysiusStarbolt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Amandra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnrakBrownbark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaldricSilverknife.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaneBlackblood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Belagan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BishopCrowbanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boreas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brother9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BrotherThorkas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptainIronleg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CelestinaWaterbreeze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Celydia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChamberlainThomar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorsairMagere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuthanaChest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dafyd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DariusMoonglow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeepOneBoss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DerranIronstrife.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Doremas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drardos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DwarthonStoneface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Edden.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ElysanaBlackrose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Etheanan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Evelyn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GhundargRumblefoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Giamas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GreyLeaf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grimish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Haden.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IagoCaballero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Idas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jamar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jeremiah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JonHamhoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kalir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kederic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiadus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KingTheodore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laren.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Leana.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metanas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinotaurPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBDelwobble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBFleshGolem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBIllusionWeaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsignorDamien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterStatSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MordrickWarstone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MorindinArrowmist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NafuhrBloodhammer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Orcarchmage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PMTheisser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrincessDelilah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rawlin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reynen_Aspicdart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RhodarHeatforge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rondy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Safe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Samuel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadeen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadeenMaskedAssassin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sundial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Taliron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TalonIrongaze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terwin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Theopold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThorbinWildheart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tobias.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Well.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xanth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zhakar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AaronBrownbark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Adriana.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AloysiusStarbolt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Amandra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnrakBrownbark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaldricSilverknife.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaneBlackblood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Belagan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BishopCrowbanner.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boreas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother1.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother10.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother11.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother12.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother2.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother3.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother4.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother5.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother6.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother7.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother8.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brother9.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BrotherThorkas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptainIronleg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CelestinaWaterbreeze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Celydia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChamberlainThomar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorsairMagere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuthanaChest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dafyd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DariusMoonglow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepOneBoss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DerranIronstrife.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Doremas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drardos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DwarthonStoneface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Edden.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ElysanaBlackrose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Etheanan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Evelyn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GhundargRumblefoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Giamas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GreyLeaf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grimish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Haden.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IagoCaballero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Idas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jamar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jeremiah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JonHamhoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kalir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kederic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiadus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KingTheodore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Laren.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Leana.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metanas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinotaurPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBDelwobble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBFleshGolem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBIllusionWeaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsignorDamien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MordrickWarstone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MorindinArrowmist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NafuhrBloodhammer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="orcarchmage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PMTheisser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrincessDelilah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rawlin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reynen_Aspicdart.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RhodarHeatforge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rondy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Safe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Samuel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadeen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadeenMaskedAssassin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sundial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Taliron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TalonIrongaze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Theopold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThorbinWildheart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tobias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Well.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xanth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zhakar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+** v0.012 **
+NEW: Monsters now cast spells!
+NEW: New character creation!
+
+** v0.013 **
+TMP: Horses temporarly disabled.
+
+** v0.014 **
+NEW: Doors now automatically close after a short delay.

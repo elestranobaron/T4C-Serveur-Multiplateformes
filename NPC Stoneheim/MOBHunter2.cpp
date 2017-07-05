@@ -1,0 +1,164 @@
+#pragma hdrstop
+#include "MOBHunter2.H"
+
+MOBHunter2::MOBHunter2()
+{}
+
+MOBHunter2::~MOBHunter2()
+{}
+
+extern NPCstructure::NPC MOBHunterNPC;
+
+void MOBHunter2::Create( void )
+{
+        npc = ( MOBHunterNPC );
+        SET_NPC_NAME( "[10887]A powerful hunter" );
+        npc.InitialPos.X = 0;
+        npc.InitialPos.Y = 0;
+        npc.InitialPos.world = 0;
+}
+
+void MOBHunter2::OnPopup( UNIT_FUNC_PROTOTYPE ){
+		
+	IF(CheckGlobalFlag(__GLOBAL_FLAG_BLOODLUST_IS_ON_THE_MAP) == 0)
+		SWITCH(rnd.roll(dice(1, 3)))
+			CASE(1)
+				SUMMON2("BLOODLUST", 495, 553,0)
+			ENDCASE
+			CASE(2)
+				SUMMON2("BLOODLUST", 437, 755,0)
+			ENDCASE
+			CASE(3)
+				SUMMON2("BLOODLUST", 607, 925,0)
+			ENDCASE
+		ENDSWITCH
+		GiveGlobalFlag(__GLOBAL_FLAG_BLOODLUST_IS_ON_THE_MAP, 1)
+	ENDIF
+						 
+IF (CheckGlobalFlag(__FLAG_BLACK_PROPHET_INSTANCE) == 0) 
+	SWITCH (rnd.roll(dice(1,5))) 
+		CASE(1)
+			SUMMON2("MOBBLACKPROPHET",570,1130,0) 
+		ENDCASE
+		CASE(2)
+			SUMMON2("MOBBLACKPROPHET",355,980,0) 
+		ENDCASE
+		CASE(3)
+			SUMMON2("MOBBLACKPROPHET",190,1170,0) 
+		ENDCASE
+		CASE(4)
+			SUMMON2("MOBBLACKPROPHET",215,435,0) 
+		ENDCASE
+		CASE(5)
+			SUMMON2("MOBBLACKPROPHET",340,585,0) 
+		ENDCASE
+	ENDSWITCH
+ENDIF
+
+
+IF (CheckGlobalFlag(__FLAG_DARK_CLERIC_INSTANCE) == 0) 
+	SWITCH (rnd.roll(dice(1,5))) 
+		CASE(1)
+			SUMMON2("MOBDARKCLERIC",640,750,0) 
+		ENDCASE
+		CASE(2)
+			SUMMON2("MOBDARKCLERIC",820,765,0) 
+		ENDCASE
+		CASE(3)
+			SUMMON2("MOBDARKCLERIC",925,700,0)
+		ENDCASE
+		CASE(4)
+			SUMMON2("MOBDARKCLERIC",980,490,0) 
+		ENDCASE
+		CASE(5)
+			SUMMON2("MOBDARKCLERIC",935,415,0) 
+		ENDCASE
+	ENDSWITCH
+ENDIF
+
+
+IF (CheckGlobalFlag(__FLAG_HERETIC_WARRIOR_INSTANCE) == 0) 
+	SWITCH (rnd.roll(dice(1,5))) 
+		CASE(1)
+			SUMMON2("MOBHERETICWARRIOR",380,690,0) 
+		ENDCASE
+		CASE(2)
+			SUMMON2("MOBHERETICWARRIOR",550,580,0) 
+		ENDCASE
+		CASE(3)
+			SUMMON2("MOBHERETICWARRIOR",690,435,0) 
+		ENDCASE
+		CASE(4)
+			SUMMON2("MOBHERETICWARRIOR",825,510,0) 
+		ENDCASE
+		CASE(5)
+			SUMMON2("MOBHERETICWARRIOR",935,735,0) 
+		ENDCASE
+	ENDSWITCH
+ENDIF
+
+IF (CheckGlobalFlag(__FLAG_DARK_NOBLE_INSTANCE) == 0) 
+	SWITCH (rnd.roll(dice(1,5))) 
+		CASE(1)
+			SUMMON2("MOBDARKNOBLE",460,1175,0) 
+		ENDCASE
+		CASE(2)
+			SUMMON2("MOBDARKNOBLE",760,1035,0) 
+		ENDCASE
+		CASE(3)
+			SUMMON2("MOBDARKNOBLE",830,925,0) 
+		ENDCASE
+		CASE(4)
+			SUMMON2("MOBDARKNOBLE",850,375,0) 
+		ENDCASE
+		CASE(5)
+			SUMMON2("MOBDARKNOBLE",650,390,0) 
+		ENDCASE
+	ENDSWITCH
+ENDIF
+
+SimpleMonster::OnPopup( UNIT_FUNC_PARAM );
+}
+
+/*void MOBHunter2::OnDeath( UNIT_FUNC_PROTOTYPE )
+{
+	TFormat FORMAT;
+	if( target != NULL )
+	{
+
+	}
+
+	NPCstructure::OnDeath( UNIT_FUNC_PARAM );
+}
+*/
+
+void MOBHunter2::OnTalk( UNIT_FUNC_PROTOTYPE )
+
+{
+
+InitTalk
+
+Begin
+""
+SWITCH(rnd.roll(dice(1, 3)))
+	CASE(1)
+		Conversation
+		INTL( 10816, "Go away, you are scaring my prey...")
+	ENDCASE
+	CASE(2)
+		Conversation
+		INTL( 4019, "I don't have time for this.")
+	ENDCASE
+	CASE(3)
+		Conversation
+		INTL( 10817, "Can't you see I'm busy?")
+	ENDCASE
+ENDSWITCH
+BREAK
+
+Default
+""
+BREAK
+
+EndTalk
+}

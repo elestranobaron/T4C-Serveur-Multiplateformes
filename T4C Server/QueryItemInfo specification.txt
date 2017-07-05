@@ -1,0 +1,77 @@
+Network protocol définition:
+
+Function QueryItemInfo
+Opcode 122
+
+Query parameter ( client ):
+long itemID // the id of the object we went info about
+
+
+
+Answer Parameters ( server ):
+
+char ErrorCode = {0,1,2} // 0 = OK, data follows. 1 = no such unit. 2 = not an object
+
+std::string name
+short appearance
+char radiance // ranged [-100..100]
+short AC
+short dodge // malus of dodge
+short end // required endurance
+long min_damage
+long max_damage
+short attack // required attack
+short str // required strength
+short agi // required agility
+short wis // required wisdom
+short int // required intellect
+short nb_boost // number of boosts of the object
+// followed by the activated boost list
+char boosted_stat // see below for codes
+long min_boost_val
+long max_boost_val
+
+/***********************************************/
+Annex : stat values ( from Unit.h )
+
+#define STAT_SKILL_INVALID		0
+#define STAT_INT			1
+#define STAT_END			2
+#define STAT_STR			3
+#define STAT_WIS			4
+#define STAT_AGI			6
+#define STAT_ATTACK			8
+#define STAT_DODGE			9
+#define STAT_DAMAGE			10
+#define STAT_RADIANCE       		11
+#define STAT_AIR_RESIST     		12
+#define STAT_FIRE_RESIST    		13
+#define STAT_WATER_RESIST   		14
+#define STAT_EARTH_RESIST   		15
+#define STAT_AIR_POWER      		16
+#define STAT_FIRE_POWER     		17
+#define STAT_WATER_POWER    		18
+#define STAT_EARTH_POWER    		19
+#define STAT_AC             		20
+#define STAT_LIGHT_RESIST   		21
+#define STAT_DARK_RESIST    		22
+#define STAT_LIGHT_POWER    		23
+#define STAT_DARK_POWER     		24
+#define STAT_MAX_HP         		25
+#define STAT_MAX_MANA       		26
+#define SKILL_STUN_BLOW     		27
+#define SKILL_POWERUL_BLOW		28
+#define SKILL_FIRST_AID			29
+#define SKILL_PARRY			30
+#define SKILL_MEDITATE			31
+#define SKILL_DODGE			32
+#define SKILL_ATTACK			33
+#define SKILL_HIDE			34
+#define SKILL_ROB			35
+#define SKILL_SNEAK			36
+#define SKILL_SEARCH			37
+#define SKILL_PICKLOCK			38
+#define SKILL_ARMOR_PENETRATION		39
+#define SKILL_PEEK			40
+#define SKILL_RAPID_HEALING		41
+#define SKILL_ARCHERY			42

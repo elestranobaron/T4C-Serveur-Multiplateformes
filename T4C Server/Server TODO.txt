@@ -1,0 +1,46 @@
+[X] -	Regler le leak des skills (mineur).
+
+[.] -	Regler le manager.
+  [X]	Setter les manager acks at very top priority.
+
+
+[X] -	Regler le blocking strange. 
+			Solve: uncompiled block map, simply recompiled it.
+	
+[X] -	Regler le bug des PCs a ( 0, 0 )
+			Solve: Case sensitive user search. When checking which account had the ownership
+				of a player, a case sensitive search was done which did not match account
+				name case changes on the client. Now doing a case insensitive search.
+
+[X] -	Install Ehlija's GP update.
+
+[X] -	Entrer la charte d'xp.
+
+[X] -	Entrer les nouveaux monstres.
+
+[X] -	Enabler les groupes de monstres dans TFC Worlds.mdb
+
+[X] -	Faire Buy/Sell
+
+[X] -	Ajouter le gold worth sur les units.
+
+[.] -	Enabler le nouveau VOP API
+
+[ ] -	Verifier les guards des towns pour les mettre comme des monstres. ->Delay
+
+[ ] -	Faire les objects sur les corpses de monstres et les re-enabler dans MonsterStatSetup.
+		-> delay
+
+[.] -	Entrer les nouveaux items.		
+
+[ ] -	Regler le leak des area links (tres mineur). -> Very delay
+
+[ ] -	Entrer la quest de Balork.
+
+
+[ ] -	Faire la pouch of gold. -> delay
+
+[ ] -	Faire extended desc sur les items. -> delay
+
+-- done
+- Stats verifies.

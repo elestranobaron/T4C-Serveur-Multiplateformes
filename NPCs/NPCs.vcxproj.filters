@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{09e6dd79-2a2d-4faa-b030-fb49859faf41}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c157db32-9555-4a55-a182-f6d44955efcc}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Araknor.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Balork.H">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BrotherKiran.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DelvarIrongrip.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Edgar.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ElmertMerkiss.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Fali.H">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Geena.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Guardman.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Halam.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Iraltok.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Isulgur.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="JagarKar.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Jalus.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Kalastor.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Kilhiam.H">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KirlorDhul.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Lothan.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Markam.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MarnecSunim.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mithrand.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Moonrock.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Murmuntag.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Ortanalas.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pig.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Rolph.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sigfried.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TwinNevanis.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TwinShovanis.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Uranos.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Araknor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Balork.CPP">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BrotherKiran.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DelvarIrongrip.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="dragon.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Edgar.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ElmertMerkiss.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Fali.CPP">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Geena.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Guardman.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Halam.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Iraltok.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Isulgur.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="JagarKar.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Jalus.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Kalastor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Kilhiam.CPP">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KirlorDhul.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Lothan.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Markam.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MarnecSunim.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mithrand.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterStatSetup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Moonrock.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Murmuntag.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.CPP">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Ortanalas.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Pig.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Rolph.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sigfried.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TwinNevanis.CPP">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TwinShovanis.CPP">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Uranos.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

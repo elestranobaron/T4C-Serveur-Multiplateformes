@@ -1,0 +1,115 @@
+// WDASpellRequirements.cpp: implementation of the WDASpellRequirements class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "WDASpellRequirements.h"
+#include "Format.h"
+
+using namespace std;
+using namespace vir;
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+WDASpellRequirements::WDASpellRequirements( Logger &cLogger, DEBUG_LEVEL dlMapDebugHigh ) : WDATable( cLogger )
+{
+    MapDebugHighLogLevel( dlMapDebugHigh );
+}
+
+WDASpellRequirements::~WDASpellRequirements()
+{
+
+}
+
+// Accessors
+//////////////////////////////////////////////////////////////////////////////////////////
+DWORD WDASpellRequirements::GetRequiredSpellID( void )
+//////////////////////////////////////////////////////////////////////////////////////////
+// The required spell ID.
+//////////////////////////////////////////////////////////////////////////////////////////
+{
+    return dwRequiredSpellID;
+}
+    
+//////////////////////////////////////////////////////////////////////////////////////////
+void WDASpellRequirements::SaveTo
+//////////////////////////////////////////////////////////////////////////////////////////
+// Saves to a wdaFile
+// 
+(
+ WDAFile &wdaFile // The wdaFile
+)
+//////////////////////////////////////////////////////////////////////////////////////////
+{
+    // Write the required spell ID
+    wdaFile.Write( dwRequiredSpellID );
+
+    TFormat cFormat;
+    cOutput.Log(
+        dlDebugHigh,
+        cFormat( 
+            "\n  Writing required spell %u.",
+            dwRequiredSpellID
+        )
+    );
+}
+    
+    
+//////////////////////////////////////////////////////////////////////////////////////////
+void WDASpellRequirements::CreateFrom
+//////////////////////////////////////////////////////////////////////////////////////////
+// Creates from a wdaFile.
+// 
+(
+ WDAFile &wdaFile, // the wdaFile.
+ bool //createReadOnly
+)
+//////////////////////////////////////////////////////////////////////////////////////////
+{
+    wdaFile.Read( dwRequiredSpellID );
+
+    TFormat cFormat;
+    cOutput.Log(
+        dlDebugHigh,
+        cFormat( 
+            "\n  Requires spell %u.",
+            dwRequiredSpellID
+        )
+    );
+}
+#ifndef NO_DAO_SUPPORT    
+    
+//////////////////////////////////////////////////////////////////////////////////////////
+void WDASpellRequirements::CreateFrom
+//////////////////////////////////////////////////////////////////////////////////////////
+// Loads the worlds from a DAO support    
+// 
+(
+ CDaoRecordset &cRecord, // The sole record 
+ CDaoDatabase &cDatabase // The database (unused).
+)
+//////////////////////////////////////////////////////////////////////////////////////////
+{
+    // Verify that we didn't get the recordset's end.
+    ASSERT( !cRecord.IsEOF() );
+    if( cRecord.IsEOF() ){
+        return;
+    }
+
+    COleVariant oleData;
+
+    cRecord.GetFieldValue( "RequiredSpellID", oleData );
+    dwRequiredSpellID = V_I4( &oleData );
+
+    TFormat cFormat;
+    cOutput.Log(
+        dlDebugHigh,
+        cFormat( 
+            "\n  Requires spell %u.",
+            dwRequiredSpellID
+        )
+    );
+}
+#endif

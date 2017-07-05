@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{25a28728-c6b6-4519-8714-72130cae1a2d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3ca9929a-d502-474b-81c7-4acbc58c204a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnnithaeTeardrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AydanGoldstar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BastienMilandra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeltiganWhitesword.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlightPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bloodlust.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CentaurAvenger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CentaurChampion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CentaurManaweaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CentaurSentinel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CentaurTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChieftainThorwagth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChieftainYahgwuhl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChiefWuuthgoran.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChryseidaYolangda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptChest1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptChest2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptChest3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptChest4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptChest5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptCoffin1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptWell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DantalirSongweaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DaranAnnithae.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DaranAtrocity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DaranLightfoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DelnarSteelblade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DionysusSilverstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Eldantor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Eldrig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EtherealPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GabrielArchonis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GaenenElthorn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GladdiusWindchaser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Glaenshenmilandira.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GrantHornkeep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GulfridSteelhammer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadhunterWajpoothin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HerewaldIronbender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HunterGruttWorgwloth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HunterTruggWorgwloth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Julian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KahpLethGuard1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KahpLethGuard2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kavarian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KhanWulgworth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KheralSilverhawk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Khimtesar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KhimtesarWell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KingAedenasGravesoul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KyathosShatterskull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LordoftheShops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LordStonecrest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MalachaiFatebringer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MayorFairweather.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeltarWinterstorm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MirymwenFeatherfoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MithannaSnowraven.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBBlackProphet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBCelestialCobra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBDarkCleric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBDarkNoble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBGauzeCorpse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBGehennaReaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBGiantBlackWidow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBHereticWarrior.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBHunter1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBHunter2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBMadBerserkerDemon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBNeoflare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBNightRetriever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBPurifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBQuentinTarantula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBRedEyedCentaur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBShadowstalker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBShriekerRodent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MOBYoggothWorm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterSpawner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterStatSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoonTugGuard1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoonTugGuard2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mordenthal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NissusHaloseeker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NorimarSteelwind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OmarHald.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Oracle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleChest14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleChest15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleEscapeDoor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleEscapeFlippedDoor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleGuardian1a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleGuardian1b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleGuardian1c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleGuardian1d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleGuardian1e.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleGuardian1f.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OraclePortal1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OraclePortal2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OraclePortal3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OraclePortal4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OraclePortal5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OraclePortal6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OraclePortal7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OraclePortal8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleQuickChest1a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleQuickChest1b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleQuickChest2a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleQuickChest2b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleRandomChest9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest1a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest1b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest2a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest2b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest3a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest3b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest4a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest4b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest5a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest5b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest6a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest6b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest7a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleTrappedChest7b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OracleVulnerableGuardian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RablekSwiftblade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemortNPC1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemortNPC2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemortNPC3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemortNPC4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemortNPC5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoenGreenleaf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShamanWeethgwotha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugBigbruddalbashah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugBigworviktor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugBludfightor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugClangbangah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugGrubbringah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugMadlimbmanglor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugMeanheaddrummah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugMoonfiredansah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugMunchhuntor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugProtekterritor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugStandanbonkah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkraugTotemherbdoktor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sweeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TheoranIronfaith.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThorGlarefire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Torgas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackerOoglaThraaglurh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vargus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VargusChest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Venadar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WitchDoctorKwarlgloth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldWildHorse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZionThunderheart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnnithaeTeardrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AydanGoldstar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BastienMilandra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeltiganWhitesword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlightPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bloodlust.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CentaurAvenger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CentaurChampion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CentaurManaweaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CentaurSentinel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CentaurTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChieftainThorwagth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChieftainYahgwuhl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiefWuuthgoran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChryseidaYolangda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptChest1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptChest2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptChest3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptChest4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptChest5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptCoffin1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptWell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DantalirSongweaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DaranAnnithae.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DaranAtrocity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DaranLightfoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DelnarSteelblade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DionysusSilverstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Eldantor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Eldrig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EtherealPortal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GabrielArchonis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GaenenElthorn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GashEmguud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GladdiusWindchaser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Glaenshenmilandira.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinAssassinGlubGlub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinKingGowogGulp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoblinQueenTwigWigGulp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrantHornkeep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GulfridSteelhammer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadhunterWajpoothin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HerewaldIronbender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HunterGruttWorgwloth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HunterTruggWorgwloth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Julian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KahpLethGuard1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KahpLethGuard2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kavarian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KhanWulgworth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KheralSilverhawk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Khimtesar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KhimtesarWell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KingAedenasGravesoul.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KyathosShatterskull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LordoftheShops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LordStonecrest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MalachaiFatebringer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MayorFairweather.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeltarWinterstorm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MirymwenFeatherfoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MithannaSnowraven.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBBlackProphet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBCelestialCobra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBDarkCleric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBDarkNoble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBGauzeCorpse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBGehennaReaver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBGiantBlackWidow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBHereticWarrior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBHunter1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBHunter2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBMadBerserkerDemon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBNeoflare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBNightRetriever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBPurifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBQuentinTarantula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBRedEyedCentaur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBShadowstalker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBShriekerRodent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MOBYoggothWorm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterSpawner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoonTugGuard1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoonTugGuard2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mordenthal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nimli.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NissusHaloseeker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NorimarSteelwind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OmarHald.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Oracle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleChest14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleChest15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleEscapeDoor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleEscapeFlippedDoor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleGuardian1a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleGuardian1b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleGuardian1c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleGuardian1d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleGuardian1e.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleGuardian1f.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OraclePortal1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OraclePortal2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OraclePortal3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OraclePortal4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OraclePortal5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OraclePortal6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OraclePortal7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OraclePortal8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleQuickChest1a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleQuickChest1b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleQuickChest2a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleQuickChest2b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleRandomChest9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest1a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest1b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest2a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest2b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest3a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest3b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest4a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest4b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest5a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest5b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest6a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest6b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest7a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleTrappedChest7b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OracleVulnerableGuardian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RablekSwiftblade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemortNPC1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemortNPC2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemortNPC3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemortNPC4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemortNPC5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoenGreenleaf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShamanWeethgwotha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugBigbruddalbashah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugBigworviktor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugBludfightor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugClangbangah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugGrubbringah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugMadlimbmanglor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugMeanheaddrummah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugMoonfiredansah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugMunchhuntor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugProtekterritor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugStandanbonkah.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkraugTotemherbdoktor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sweeper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TheoranIronfaith.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThorGlarefire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Torgas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackerOoglaThraaglurh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vargus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VargusChest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Venadar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WitchDoctorKwarlgloth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldWildHorse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZionThunderheart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

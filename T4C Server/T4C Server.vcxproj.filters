@@ -1,0 +1,1386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{240d8dcd-e365-470d-bee6-15baa51d3d19}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6de850f8-939d-4fe0-9ef8-d55a59a317ad}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{423f2dd0-74af-4133-8f71-b419dd921374}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{3df587f5-64e2-4601-a5c3-04ab4781186e}</UniqueIdentifier>
+      <Extensions>*.html *.htm</Extensions>
+    </Filter>
+    <Filter Include="Documentation\Network Protocol">
+      <UniqueIdentifier>{f9fe008d-76d2-4cc9-bd65-05431ae0d160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NPC Editor CPP">
+      <UniqueIdentifier>{c236083f-3629-4343-9c9a-908429b88929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NPC Editor H">
+      <UniqueIdentifier>{83c7dc65-7aee-41f5-87b1-a0a5aca9bdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core CPP">
+      <UniqueIdentifier>{fcf6431d-6dcf-4083-837e-504f1436f44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core H">
+      <UniqueIdentifier>{faada9b7-2c00-43d3-b342-31c44cc6c6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skills CPP">
+      <UniqueIdentifier>{75b07f78-5b69-4966-bd43-284fe6b6972b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skills H">
+      <UniqueIdentifier>{ab35546c-fa9d-4ea6-b532-341c1b4559e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spell Effects CPP">
+      <UniqueIdentifier>{20169f71-0d73-412c-9df3-e833893b514a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spell Effects H">
+      <UniqueIdentifier>{81fd3b20-b096-4ec9-831c-a477e858de8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World Objects CPP">
+      <UniqueIdentifier>{25c27550-d416-4264-9fac-f5cc5ff52690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World Objects H">
+      <UniqueIdentifier>{62fcb8f9-49c6-4547-b078-181c7dcaa922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crypt">
+      <UniqueIdentifier>{0c37a868-81de-46fd-9073-540c947f094d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP">
+      <UniqueIdentifier>{51de09ee-a355-431a-8adc-7ae895993449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{59e7098f-1a74-4d29-bb09-c9f11bb173ee}</UniqueIdentifier>
+      <Extensions>.h .cpp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AreaSensitiveEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assertion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncFuncQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Autolock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoostFormula.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Broadcast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_SERVIC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Capuchon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatterChannels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommCenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Creatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadlockDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugLockManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugLoggerAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicFlags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynObjManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EncRandom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EXPFLTR.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatPlayerName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_RULES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntlText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCmacroScriptLng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCstructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectListing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ODBCMage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ODBCTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OldLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYERS.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PVPSentence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegKeyHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Setup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMonster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleNPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Snow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellMessageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stackhlp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysopCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System-Win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="T4CLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFC_MAIN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFCException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFCInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFCMessagesHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFCPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFCServerGP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFCTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TFCTimers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitEffectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAAreaLinks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAClans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDACreatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAHives.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDALarvae.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAObjectsAttrBoosts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAObjectsContainerGroups.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAObjectsContainerItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAObjectsSpells.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAObjectsWorldObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDASpellEffectParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDASpellEffects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDASpellRequirements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDASpells.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDATable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WDAWorlds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\Assign.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\Command.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\CompositeInstruction.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\ControlFlow.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\ElseFlow.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\ElseIfFlow.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\ForFlow.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\IfFlow.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\Instruction.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\InstructionFactory.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\Keyword.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\NPC.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\NPCManager.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\RootInstruction.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Editor\WhileFlow.cpp">
+      <Filter>NPC Editor CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\AppStrings.cpp">
+      <Filter>Core CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DebugTools.cpp">
+      <Filter>Core CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\ArmorPenetration.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\CriticalStrike.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\DisarmTrap.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\EvadeView.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\FastHealing.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\FirstAid.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\ForgetPain.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\GenericSkill.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\Hide.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\Meditate.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\Parry.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\Peek.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\PickLock.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\PowerfullBlow.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\Pray.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\Rob.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\Search.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\SkillsRegistration.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\Sneak.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\StunBlow.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills\TwoWeapons.cpp">
+      <Filter>Skills CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\AttrBoost.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\ConjureEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\DetectHidden.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\DetectInvisibility.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\DispellEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\DrainLife.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\ExhaustEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\FlagAdding.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\HealthEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\Invisibility.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\ItemActionEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\PersistentSpellHookEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\Recall.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\RecallDeathPos.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\SetStatEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\SpellHookEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\SysMsgEffect.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellEffects\VaporizeUnit.cpp">
+      <Filter>Spell Effects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Armor.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Book.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Bow.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\ChestStructure.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Container.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\DestinyGem.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Doors.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Food.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\GemOfLife.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Gold.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\IcySaber.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\ItemAreaLink.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\ObjectStatsSetup.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Potions.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Sign.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\SpellBook.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\StandardObject.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\Sword.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="World Objects\World Objects.cpp">
+      <Filter>World Objects CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt\int64stuff.cpp">
+      <Filter>Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt\keysgestionnar.cpp">
+      <Filter>Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP\LoopThread.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP\Mutex.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP\Queue.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP\QueueVector.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP\Semaphore.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDP\Thread.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TFC Server.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Apparence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaSensitiveEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assertion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncFuncQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockingListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoostFormula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoostListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Broadcast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C_SERVIC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Capuchon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatterChannels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClanListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommCenter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComPacketHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureFlagListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Creatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbnpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadlockDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLockManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLoggerAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Directions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLCreatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Doings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynObjListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynObjManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncRandom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EXPFLTR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatPlayerName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_RULES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guilds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitDBSpellRequirements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntlText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="message_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCmacroScriptLng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCstructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFlagsListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ODBCMage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ODBCTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OldLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYERS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestFlagsListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RaceListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegKeyHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SendPacketVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedStructures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shutdown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMonster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleNPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Snow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffectStructureListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stackhlp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatModifierFlagsListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringhlp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysopCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T4CLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFC Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFC ServerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFC World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFC_MAIN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFCException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFCInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFCMessagesHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFCPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFCServerGP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFCTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TFCTimers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerListing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitEffectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vdlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAAreaLinks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAClans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDACreatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAHives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDALarvae.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAObjectsAttrBoosts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAObjectsContainerGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAObjectsContainerItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAObjectsSpells.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAObjectsWorldObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDASpellEffectParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDASpellEffects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDASpellRequirements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDASpells.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDATable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WDAWorlds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\Assign.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\Command.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\CompositeInstruction.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\Condition.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\ControlFlow.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\ElseFlow.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\ElseIfFlow.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\ForFlow.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\IfFlow.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\Instruction.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\InstructionFactory.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\Keyword.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\NPC.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\NPC_Editor.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\NPCManager.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\RootInstruction.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_Editor\WhileFlow.h">
+      <Filter>NPC Editor H</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\AppStrings.h">
+      <Filter>Core H</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BoostFormula.h">
+      <Filter>Core H</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DebugTools.h">
+      <Filter>Core H</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Format.h">
+      <Filter>Core H</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\resource.h">
+      <Filter>Core H</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\WDAFile.h">
+      <Filter>Core H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\ArmorPenetration.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\CriticalStrike.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\DisarmTrap.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\EvadeView.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\FastHealing.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\FirstAid.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\ForgetPain.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\GenericSkill.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Hide.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Meditate.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Parry.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Peek.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\PickLock.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\PowerfullBlow.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Pray.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Rob.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Search.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Skills.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\Sneak.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\StunBlow.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills\TwoWeapons.h">
+      <Filter>Skills H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\AttrBoost.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\ConjureEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\DetectHidden.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\DetectInvisibility.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\DispellEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\DrainLife.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\ExhaustEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\FlagAdding.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\HealthEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\Invisibility.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\ItemActionEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\PersistentSpellHookEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\Recall.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\RecallDeathPos.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\SetStatEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\SpellHookEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\SysMsgEffect.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellEffects\VaporizeUnit.h">
+      <Filter>Spell Effects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Armor.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Bag.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Book.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Bow.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\ChestStructure.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Container.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\DestinyGem.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Doors.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Food.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\GemOfLife.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Gold.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\IcySaber.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\ItemAreaLink.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Potions.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Sign.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\SpellBook.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\StandardObject.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\Sword.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="World Objects\World Objects.h">
+      <Filter>World Objects H</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt\int64stuff.h">
+      <Filter>Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt\keysgestionnar.h">
+      <Filter>Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP\LoopThread.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP\Mutex.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP\Queue.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP\QueueVector.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP\Semaphore.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP\Thread.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="PVPSentence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\TFC Server.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TFC Server.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="T4C_ENG.LNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="QueryItemInfo specification.txt">
+      <Filter>Documentation\Network Protocol</Filter>
+    </Text>
+    <Text Include="LicenseeRelease.txt" />
+    <Text Include="PlayerRelease.txt" />
+    <Text Include="ReadMe.txt" />
+    <Text Include="Server TODO.txt" />
+  </ItemGroup>
+</Project>

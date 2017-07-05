@@ -1,0 +1,389 @@
+** v0.012.0 ** ** Licensee release **
+
+NEW: Can now setup starting items through the control panel application.
+FIX: Shouting now get logged into the shouts log file.
+FIX: GP fault reports are now logged properly.
+NEW: Added Character DB UserName and Character DB Password fields under the Characters tab.
+     Allows setting a user/password for the characters database.
+
+** v0.013.0 ** ** Licensee release **
+
+** v0.013.1 **
+NEW: Doors now automatically close after a short delay.
+NEW: Drain life spell effect coded.
+NEW: Added full API interface for elemental resistance/power stats.
+NEW: Added possibility for a certain percentage of failure on spell hook effects.
+
+** v0.013.2 **
+NEW: Peek skill implemented.
+NEW: Rob skill implemented.
+FIX: Bosses now reply to spell attacks.
+FIX: Monsters that can't attack (such as horses) no longer retaliate when struck.
+NEW: Fast healing skill implemented.
+FIX: Server crash in death log.
+NEW: Added performance monitoring capabilities!
+
+** v0.014.0 ** ** Licencee release **
+FIX: Fixed performance monitoring.
+NEW: Added networking performance monitoring counters!
+
+** v0.014.1 **
+FIX: Fixed server crash in ODBC thread when writting list of rollbacked requests (upon ODBC failure).
+NEW: Server shutdown now centralized, also notifies users.
+
+** v0.014.2 **
+FIX: Shutting down now saves player records.
+NEW: Packet safety reinstated.
+FIX: Fixed long packet bug/crash!
+
+** v0.015.0 **
+
+** v0.016.0 **
+NEW: Gold now displays as an object! Can be dropped!
+
+** v0.017.0 **
+FIX: Selling items made server crash.
+
+** v0.018.0 **
+FIX: Unequipping items which used to be two handed (but are now single handed) made server crash.
+NEW: Gold can now be separated! Allowing gold trading!
+
+** v0.019.0 **
+
+** v0.020.0 **
+FIX: Fixed crash in stone of life quest.
+FIX: Unhandled exception when client sent an incomplete RQ_UseSkill packet.
+FIX: Death now removes the setup % of experience points.
+
+** v0.021.0 ** to ** v0.028.0 **
+FIX: T4C Watch now detects if the server could not shutdown or crash properly.
+FIX: Crashes in AsyncFuncQueueThread (Deadlock in ODBC).
+NEW: Implemented a T4C shell control (T4CShell.exe). Used to control the server using the shell and/or batch files.
+     Allows scheduled events usign Windows NT's 'AT' command.
+NEW: Support for MySQL SQL servers.
+NEW: Implemented a database copy program (T4CSQL.exe). Allows creating and copying T4C databases through ODBC.
+     Needed to create any new user database for T4C. Also allows already existing databases to be transfered to
+	 empty T4C databases.
+FIX: Packet losses.
+
+
+
+** v0.033.0 ** ** Licensee Release **
+FIX: Crashes, server is relatively stable. (Stability 2).
+
+** v0.035.0 **
+NEW: Objects, creatures, spells and skills now have external name string ID.
+
+** v0.035.1 **
+FIX: Multiple boosts can now co-exist on a user.
+FIX: Skill points leakage no longer occurs on user loading.
+FIX: Poison no longer freezes NPCs.
+FIX: Poison spell and other threatening spells now check PVP.
+FIX: Poison now does damage for users higher than the minimum level for PVP.
+FIX: Monsters can no longer fight through walls/fence.
+FIX: Important NPCs can no longer be dragged out of their assigned spot.
+NEW: Added configurable shout delay to regulate spamming.
+FIX: Monster item adding is now compiler-safe.
+FIX: New internal map representation is more stable.
+NEW: Sysop command for regulating user specific shout delays.
+FIX: XP updated on successful quest where xp is given.
+FIX: Gold transaction now logging in PC edit log.
+FIX: Crashes:
+        Crashes due to intl_strings.  
+        Crash due to unsigned world pos.
+		Crash due to thread safety in flyweight ObjectStructure's spells and boosts lists.
+		Crash in RQ_PutPlayerInGame if a player was uninitialized (queried an invalid world).
+
+************
+** v0.043 **
+NEW: Added performance counters to monitor packet queues and packet type occurance.
+NEW: Added sysop commands to edit elemental stats.
+NEW: Implemented collision checking when dropping an object.
+NEW: T4C ping application.
+FIX: Distant combat
+FIX: Chest send a 'too far' message when used from too far.
+FIX: HP outline updated when casting spell.
+FIX: Deleting a character updates the character list.
+NEW: Status update packet now sends true stats apart from boosted stats.
+FIX: Lighting updated when entering an area or when using radiance modifying spells.
+FIX: Character's sex is sent from client to server on character creation.
+NEW: Lost connection detection w\ icmp.
+NEW: Added Light and Dark elements.
+
+BUG: Crash in intr thread (RQ_PlayerMove). \_ linked..
+BUG: Crash in scan hostiles.			   /
+BUG: Crash in performance monitor when selecting the T4C Packets object.
+
+** v0.043.3 **
+FIX: Specific spell targetting now active. (Target living, target object etc).
+FIX: T4C now supports accounts with quotes ' in their name.
+FIX: XP is updated when player dies.
+NEW: T4C Watch now directly notified when server crashes.
+NEW: (Patch Server) Patches are logged inside patch server.
+
+** v0.45.0 **
+NEW: Recall Death Pos spell effect.
+NEW: Installed packet sending reporting.
+NEW: License key can be changed from control panel.
+FIX: Spell now take effect against monsters in non-PVP areas.
+
+
+** v0.46.0 **
+FIX: Quest items now given even if backpack full.
+FIX: Monster bosses shouldn't dissappear anymore when moving too far from their hive.
+FIX: Cannot equip two items of same type at same time.
+NEW: Added performance counters for specific packet types and general networking.
+FIX: Better messages when not meeting reqs equipping an item.
+NEW: God command for querying a user's position
+NEW: Debugging information when a user casts a spell.
+TST: Movement packet have been cut in half.
+NEW: Non-self targetting type.
+FIX: NPCs no longer leave their houses in Lighthaven.
+NEW: Updated VOPSEC.
+
+** v0.47.0 **
+FIX: Spell casted on wrong unit types no longer deduct damage.
+
+** v0.48.0 **
+FIX: Casting a spell on the dragon should no longer make it stop talking.
+NEW: Added OnAttackHit spell hook and object spell triggers effects.
+FIX: Non-default radius accounting and authentication ports now supported.
+FIX: Sysop commands now take character case into account.
+FIX: You receive 'x' gold pieces! message when entering game should no longer appear.
+FIX: The amount of gold pieces should now always appear on piles of gold.
+FIX: Items with OnAttack instilled spells should no longer give twice death rewards.
+FIX: Paging now prioritizes using 'exact name'.
+NEW: OnlineUsers table added to user database. Lists currently online users.
+FIX: Spells now show up when issuing a VIEW <user>'S SPELLS god command.
+NEW: Super user will automatically get a set of gameop flags when logging on.
+FIX: Super user account now immune to squelch/silence/zap/lockout/remove gameop flags.
+FIX: Added license option 0001 (10 user limit).
+NEW: T4C now only supports encrypted language files (.elng)
+
+** v0.49.0 **
+NEW: Putting # in from of a gameop command will forbid it from displaying (if an error is found in the command).
+NEW: Gameop commands allow gameop to become invisible in the user listing.
+NEW: GOD_TRUE_INVISIBILITY god flag allows gods to become fully invisible in game.
+FIX: You can now get items which are under other units.
+FIX: Improved item fetching and usage.
+FIX: Stacked items now updated when moving away.
+FIX: Dead monsters should stay dead (problem with spell instilled items).
+
+** v0.51.0 **
+FIX: Monster spawning no longer stops working (unit leaking problem in v49).
+
+** v0.52.0 **
+FIX: A player can no longer get another player (problem in v49).
+
+** v0.53.0 **
+FIX: Set player name now thouroughly verifies name syntax and duplicate names.
+NEW: Page system now prevents page flooding.
+FIX: Server should no longer crash when receiving a one byte packet.
+FIX: Crash in monster spells.
+NEW: Added thread boosting gameop commands (for GOD_DEVELOPPERs).
+NEW: Sending and receiving sockets can now bind on different IP/ports.
+
+** v0.54.0 **
+FIX: Incoming duplicated packets now junked approprietly.
+FIX: VOPSec deadlocks should not occur anymore.
+NEW: Internal communication module boosted up, performs much better.
+NEW: Secondary Radius IP/Port fallback (conforming to Radius RFC).
+FIX: Crash with level > 200 in SimpleMonster::OnHit(). 
+
+** v0.56.0 **
+FIX: Deadlock in AsyncRQFUNC_PutPlayerInGame \w UseDeathLock.
+NEW: Possibility to select a 'Remote' and 'Local' WG key.
+FIX: Crash in Players::LoadAccount()
+
+** v0.57.0 **
+FIX: Invisible god no longer becomes visible after attacking.
+FIX: Not logging debug information no longer makes the server crash.
+FIX: If ODBC server stops and restarts, T4C should now be able to reconnect normally.
+FIX: True attack/dodge now sent when training.
+FIX: True attack/dodge now displayed when using the view user's attack/dodge commands.
+
+** v0.58.0 **
+NEW: GOD_DEVELOPPER flag now allows viewing damage dealt/received and xp gained.
+NEW: Proxys should no longer have problems logging into T4C.
+
+** v0.59.0 **
+NEW: Can now use an item according to its general appearance (greatly improves macros).
+FIX: Removing GOD_DEVELOPPER flag should no longer remove all flags after it.
+FIX: T4C Watch started with NET START should no longer stop after ~10 seconds.
+FIX: Correct version now displayed in server's dialog box.
+FIX: Tab-stop in T4C Setup control panel application now correct.
+NEW: Fields now explicitly specified when fetching user information from an ODBC data 
+	 source, allowing extra fields to be added without disturbing T4C.
+NEW: Configuration options that do not require a server shutdown now have a * besides them in 
+     the server's control panel application.
+
+** v0.59.5 **
+FIX: Remote user authentication key now fully supported.
+
+** v0.60.0 **  ** v1.01 **
+FIX: NPCs that give XP should now trigger level up when needed.
+FIX: Only one backpack update is sent when buying multiple items.
+FIX: Radius accounting packet now include a NAS port ID.
+NEW: Gameops can now set a 'pseudoname' which will only appear in game.
+FIX: Dodge malus on armor now works.
+NEW: Coded chatter channels.
+NEW: Coded group play (not activated yet).
+FIX: VOPsec debug logs now activate with Debug Lvl 2 log levels (in control panel app).
+NEW: Weapons can now deal exhaust.
+NEW: T4C now authenticates against the OnlineUsers table in the character's database. This
+     allows multiple servers to share the same database and makes sure an account is only
+	 logged on once per database.
+FIX: SET <user>'S NAME now updates the OnlineUsers table and name in shouts.
+NEW: SET <user>'S NAME now totally bound to server naming conventions (gameop or not). Look
+     at the SET <user>'S PSEUDONAME command for unruled naming.
+NEW: An exhaustion message is sent when a player is more than 2 seconds walking exhausted.
+NEW: A gameop can now remove a player's right to attack other players. 
+     See REMOVE <user>'S RIGHT TO PVP
+NEW: Gameop ONLY spell Vaporize (10210) allows removing objects or NPCs from the game.
+	 Its usage is logged in the Gameop log file.
+NEW: T4CShell app can now wipe accounts. USE WITH CAUTION.
+FIX: BoostFormulas now understand if( = ) [IF_EQUAL] statements. 
+NEW: Gameops can now easely emulate monsters via the EMULATE MONSTER <mob> gameop command.
+FIX: Monster death sometimes leaked dead monsters they were removed from the world but still
+     handled by the monster thread.
+NEW: SQLConnect errors/info now only logged with debug lvl2 enabled.
+FIX: Level now sent with stat query packets.
+FIX: Shops/trainers now allow >64k gold prices.
+NEW: GOD_NO_MONSTERS flag now forbids monsters from attacking the god.
+FIX: VOPSec.LOG is now in the Logs paths.
+NEW: Toggable vopsec debug logging in control panel.
+FIX: T4C now supports sending keys to Radius server that do not support WG keys.
+NEW: Players talking to NPCs now logged in the online text log.
+FIX: BoostFormulas now compute IF statements with leading 
+     [non-parenthesis][parenthesis] characters correctly.
+NEW: Gameop functions to set/view user flags and karma.
+FIX: NPC/Creature popping should now work correctly.
+FIX: Gameops setting stats to 0 could provoke divide-by-zero exceptions.
+FIX: Spell backlash could cause infinite recursion loops (overflowing the stack).
+BUG: Using a summon chest in backpack crashes the server.
+FIX: All elemental resistances and powers should now work properly.
+FIX: Having a parenthesized expression after a dice roll argument in
+     a boost formula made the dice roll return 1.
+FIX: Gameop commands SET SKILL, GIVE SPELL and GIVE SKILL now correctly restricted
+     to only those who have the rightful gameop flags.
+FIX: Possibly fixed crash in RQFUNC_GetObject (getting gold).
+NEW: Chatters no longer update user listing in real-time (efficiency issue).
+ADD: Added EasyMail VXD/Install in patch update.
+ADD: Added ListingTitle and ListingMisc fields in the PlayingCharacters table.
+
+** v1.02 **
+FIX: Exception handling now more robust.
+FIX: Radial spell effects should no longer pierce walls.
+FIX: ObjectStructure field now used an item type identifier.
+FIX: Crash while querying XP chart for players higher than level 200.
+FIX: Crash in PlayerManager::GetPlayerResource due to minor thread safety issues.
+FIX: Chests will now give gold.
+FIX: Stack overflow with SendUnitMessage
+FIX: Equipped non-droppable objects should no longer be dropped when dying.
+FIX: Characters should now never be saved uninitialized in the database.
+FIX: Crash when deleting units near right/down edges of map.
+FIX: Self attacks should no longer trigger self retaliation.
+
+** v1.03 **
+NEW: Can now use 'true' stat values in boost formulas.
+NEW: Gameops can now query an item's description, when one exists, using the
+     QUERY ITEM <itemID> DESCRIPTION
+NEW: Upon database connection failure, T4C will shutdown and send an email
+     to the administrator contact email address.
+NEW: IP address shown in OnlineUsers table.
+NEW: Server sends online user quantity to global server.
+FIX: Server will boot up twice faster then before.
+
+** v1.03a **
+NEW: Gameop command VIEW <user>'S AC.
+NEW: Server version included with GPF reports.
+NEW: Monster damages rolls now as boost formulas.
+NEW: Monster now also loaded via the database.
+FIX: Boost formulas applied wrong operator priorities when multiplying fractions.
+NEW: Gameop command REMOVE <user>'S PAGES. If a user's pages are revoked, 
+     its shouts will also be off.
+FIX: Selling did not work.
+FIX: User-specified realm now overriden by realm specified in server control app.
+
+TODO: Test if QueryNameExistence really works after client update.
+
+
+** v1.05 **
+NEW: Gameop command SUMMON ITEM <item> ON <user>
+NEW: Can now set dark and light power and resist.
+NEW: Adding + in front of most values in the SET <user>'S <stat> TO <value>
+     commands adds <value> to the current value of the stat.
+NEW: Adding - in front of most values in the SET <user>'S <stat> TO <value>
+     commands substracts <value> from the current value of the stat.
+FIX: Monsters fighting other monsters were not auto-deleted.
+NEW: Can now view dark and light power and resist.
+NEW: Most gameop commands now give confirmation when successful.
+NEW[INTERNAL]: Machine name removed from crash email.
+NEW: Gameops can now edit and view stats and skill points.
+FIX: Paging doubled received and pageoff messages.
+
+** v1.07 **
+NEW: Added WebPatch configuration options in T4C Setup.
+FIX: Dropping/popping an item near top and left map edges made server crash.
+NEW: Auto-combat for normal attacks and attack spells.
+FIX: Crash in POST_PRESEND_QUEUE.
+FIX: A packet rarely sent by the server could make the character disappear 
+     and stop the mouse from working in the client.
+NEW: Users can no longer close doors.
+NEW: Added timezone information in global stats server packets.
+NEW: Temporarly removed SmartHeap for stability check.
+FIX: Time zone information wasn't returned in areas where daylight saving time
+     is not supported.
+FIX: Willpower and Luck removed from database loading/saving.
+FIX: Removed all luck effects.
+NEW: Gameop command to set full PVP on a player.
+FIX: Crash in LoadCharacter.
+FIX: Losing equipped items while dying now removes associated boosts.
+FIX: Crash when exiting the game shortly after using First Aid.
+FIX: Boost spells delay is pushed when recast (instead of spell failing).
+
+** v1.10 **
+NEW: Hooked spells now have an initial trigger delay.
+NEW: Dispell effect.
+NEW: All spells now support area effects.
+NEW: 'Exhaustion' spell effect.
+NEW: HealthEffect and DrainLife effects now require a success %
+NEW: AttrBoosts can now boost max HP and max mana. 
+   [TO TEST IN DIFFERENT SITUATIONS (IE: TRAINING/LVL UP, SAVING/LOADING)]
+NEW: Spell 'blasts' can now display a visual effect on hit targets.
+FIX: All normal shutdowns (non-crashes) now correctly save all character data.
+NEW: Invisibility spell effect.
+NEW: Detect invisibility spell effect.
+NEW: Hide and sneak skills.
+NEW: Search skill.
+NEW: Detect hidden spell effect.
+FIX: Attacking in non-PVP area no longer spams screen.
+NEW: Can now setup gold loss in user death.
+NEW: Surprise attack when hidden.
+FIX: SET CONTEXT should no longer crash when specifying offline user.
+NEW: Junk command works.
+FIX: Blocking (and PVP) problem when multiple players teleport at same spot.
+NEW: Can now give, remove and set spells and skills by their name.
+FIX: Monster death broadcast area now bigger.
+NEW: Introduced a quantity attribute on all items which reduces the size
+     of backpack packets, reduces the quantity of records saved in the
+     database and reduces the space taken by items in the backpack UI.
+     Added new column 'Qty' in the PlayerItems table in the database.
+NEW: Added new column 'TotalDuration' in the PlayerItems table in the database.
+FIX: Deadlock in ExecAutoCombat
+FIX: NPC names now sent with their texts.
+FIX: Operator priority problem in BoostFormulas * /
+FIX: Willpower and Luck totally removed from server.
+FIX: The system heartbeat drifted away from its fixed 20 beats per second.
+NEW: Effect status packets sent with certain spells.
+NEW: TotalDuration saved with effects.
+NEW: Spell descriptions sent with spellbook.
+FIX: Spell blast targetted hives and objects.
+NEW: TELEPORT TO NPC gameop command.
+NEW: COUNT NPC gameop command.
+NEW: GOD_CANNOT_DIE gameop flag.
+NEW: New target types: TARGET_GROUP_UNIT, TARGET_GROUP_SELF, TARGET_GROUP_POSITION
+     TARGET_NONGROUP_UNIT, TARGET_NONGROUP_SELF, TARGET_NONGROUP_POSITION.
+NEW: NPCs can now cast spells.
+NEW: Some object summons now restricted to developpers.
+NEW: Can now teleport to 'locations' setup in the control panel.

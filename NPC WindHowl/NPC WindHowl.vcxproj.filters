@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{e3540c03-60d7-4394-856e-5f2605dbfec0}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{0f42f5bf-48b9-4f0c-829e-d10c2ca12737}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArganorIargh.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AssystAnter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BoroarTheKnight.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BrotherHarforr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BrotherNiuss.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptainHarockHarr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Drunk.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Eraka.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Garnir.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GeorgeTheIIIrd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GreyarEedy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GuntertagDestroy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Gwen.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanDrunk.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="IroualKnowall.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="JurnistakrKira.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Karl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LaonianRikarr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LiurnClar.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LordSunrock.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LordTravis.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Malaar.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MarsacCred.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MirakNira.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MiramLaky.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterStatSetup.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushn.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="NisalmMalorik.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.CPP">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RylethCth.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SamilAlgder.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SkipperRedBeard.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TheLurker.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TtayhMark.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="WindHowl_Guard.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="WoundedGuard.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Yolak.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArganorIargh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AssystAnter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BoroarTheKnight.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BrotherHarforr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BrotherNiuss.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptainHarockHarr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Drunk.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Eraka.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Garnir.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeorgeTheIIIrd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GreyarEedy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GuntertagDestroy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Gwen.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanDrunk.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IroualKnowall.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="JurnistakrKira.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Karl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LaonianRikarr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LiurnClar.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LordSunrock.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LordTravis.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Malaar.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MarsacCred.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MirakNira.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MiramLaky.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushn.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NisalmMalorik.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RylethCth.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SamilAlgder.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkipperRedBeard.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TheLurker.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TtayhMark.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WindHowl_Guard.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WoundedGuard.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Yolak.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
