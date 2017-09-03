@@ -7,9 +7,9 @@
 #ifndef __LOGGER_H_
 #define __LOGGER_H_
 
-#ifndef EXPORT
+/*#ifndef EXPORT
 #define EXPORT	extern "C" __declspec (dllexport)
-#endif
+#endif*/
 
 //////////////////////////////////////////////////////////////////////////////////////////
 // Error Codes
@@ -53,7 +53,7 @@ private:
     struct AutoAsyncLogThreadStart{
         AutoAsyncLogThreadStart();
     };
-    friend AutoAsyncLogThreadStart;
+    friend struct AutoAsyncLogThreadStart;
     
     void WriteLog( const char * fmt );
 

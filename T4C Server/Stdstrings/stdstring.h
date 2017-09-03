@@ -3225,7 +3225,7 @@ public:
 	//
 	// RETURN VALUE: 
 	// -------------------------------------------------------------------------
-
+/*
 	void FormatV(const CT* szFormat, va_list argList)
 	{
 	#ifdef SS_ANSI
@@ -3254,7 +3254,7 @@ public:
 			// Ensure proper NULL termination.
 
 			nActual			= nUsed == -1 ? nChars-1 : SSMIN(nUsed, nChars-1);
-
+*/
 //#else  // #ifdef SS_SAFE_FORMAT
 
 
