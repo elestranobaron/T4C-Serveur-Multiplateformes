@@ -393,14 +393,14 @@ double BoostFormula::GetOperandValue
                         _LOG_DEBUG
                             LOG_CRIT_ERRORS,
                             "DEV0: self name=%s.",
-                            self->GetName(_DEFAULT_LNG)
+                            self->GetName(_DEFAULT_LNG).c_str()
                         LOG_
                     }
                     if( target != NULL ){
                         _LOG_DEBUG
                             LOG_CRIT_ERRORS,
                             "DEV0: target name=%s.",
-                            target->GetName(_DEFAULT_LNG)
+                            target->GetName(_DEFAULT_LNG).c_str()
                         LOG_
                     }
                 }else{

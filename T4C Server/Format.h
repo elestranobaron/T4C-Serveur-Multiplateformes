@@ -78,7 +78,7 @@ private:
     // Disable direct assignment.
     void operator = ( Format &cFormat ){};
     // Disable heap based instances of Format.
-    void *operator new( size_t tSize )noexcept{ return 0; }; // nouveau
+    void *operator new( size_t tSize ){ return 0; };
 
     // The format buffer has the scope of the object, as long as the format object
     // is accessible, the buffer is available.
@@ -110,7 +110,7 @@ private:
     FormatW( FormatW &cFormat ){};
     void operator = ( FormatW &cFormat ){};
     // Disable heap based FormatW objects.
-    void *operator new( size_t tSize )noexcept{ return 0; }; // nouveau
+    void *operator new( size_t tSize ){ return 0; };
 
     // The format buffer has the scope of the object, as long as the format object
     // is accessible, the buffer is available.

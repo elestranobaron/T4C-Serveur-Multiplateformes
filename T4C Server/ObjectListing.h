@@ -2,7 +2,7 @@
 #ifndef __STATICOBJECTREFERENCES_H
 #define __STATICOBJECTREFERENCES_H
 
-#define VARTYPE	//extern "C" const int IMPORT 
+#define VARTYPE	extern "C" const int IMPORT 
 
 VARTYPE __OBJ_DECOR001;
 VARTYPE __OBJ_DECOR002;
