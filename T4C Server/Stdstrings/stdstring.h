@@ -3183,7 +3183,7 @@ public:
 	}
 
 #endif // #ifdef SS_SAFE_FORMAT
-
+/*
 	void AppendFormat(const CT* szFmt, ...)
 	{
 		va_list argList;
@@ -3191,7 +3191,7 @@ public:
 		AppendFormatV(szFmt, argList);
 		va_end(argList);
 	}
-
+*/
 	#define MAX_FMT_TRIES		5	 // #of times we try 
 	#define FMT_BLOCK_SIZE		2048 // # of bytes to increment per try
 	#define BUFSIZE_1ST	256
@@ -3200,14 +3200,14 @@ public:
 
 	// an efficient way to add formatted characters to the string.  You may only
 	// add up to STD_BUF_SIZE characters at a time, though
-	void AppendFormatV(const CT* szFmt, va_list argList)
+	/*void AppendFormatV(const CT* szFmt, va_list argList)
 	{
 		CT szBuf[STD_BUF_SIZE];
 		int nLen = ssvsprintf(szBuf, STD_BUF_SIZE-1, szFmt, argList);
 
 		if ( 0 < nLen )
 			this->append(szBuf, nLen);
-	}
+	}*/
 
 	// -------------------------------------------------------------------------
 	// FUNCTION:  FormatV
@@ -4108,7 +4108,7 @@ typedef CStdStr<OLECHAR>	CStdStringO;	// almost always CStdStringW
 // -----------------------------------------------------------------------------
 
 
-friend inline CStdStringA operator+(const CStdStringA& s1, const CStdStringA& s2) // apparement ajout de friend jusqu en ligne 4208 nécessaire
+inline CStdStringA operator+(const CStdStringA& s1, const CStdStringA& s2) // apparement ajout de friend jusqu en ligne 4208 nécessaire // maintenant c contraire
 {
 	CStdStringA sRet(SSREF(s1));
 	sRet.append(s2);
@@ -4120,13 +4120,13 @@ friend inline CStdStringA operator+(const CStdStringA& s1, CStdStringA::value_ty
 	sRet.append(1, t);
 	return sRet;
 }*/
-friend inline CStdStringA operator+(const CStdStringA& s1, PCSTR pA)
+inline CStdStringA operator+(const CStdStringA& s1, PCSTR pA)
 {
 	CStdStringA sRet(SSREF(s1));
 	sRet.append(pA);
 	return sRet;
 }
-friend inline CStdStringA operator+(PCSTR pA, const CStdStringA& sA)
+inline CStdStringA operator+(PCSTR pA, const CStdStringA& sA)
 {
 	CStdStringA sRet;
 	CStdStringA::size_type nObjSize = sA.size();
@@ -4140,17 +4140,17 @@ friend inline CStdStringA operator+(PCSTR pA, const CStdStringA& sA)
 }
 
 
-friend inline CStdStringA operator+(const CStdStringA& s1, const CStdStringW& s2)
+inline CStdStringA operator+(const CStdStringA& s1, const CStdStringW& s2)
 {
 	return s1 + CStdStringA(s2);
 }
-friend inline CStdStringW operator+(const CStdStringW& s1, const CStdStringW& s2)
+inline CStdStringW operator+(const CStdStringW& s1, const CStdStringW& s2)
 {
 	CStdStringW sRet(SSREF(s1));
 	sRet.append(s2);
 	return sRet;
 }
-friend inline CStdStringA operator+(const CStdStringA& s1, PCWSTR pW)
+inline CStdStringA operator+(const CStdStringA& s1, PCWSTR pW)
 {
 	return s1 + CStdStringA(pW);
 }
@@ -4165,11 +4165,11 @@ friend inline CStdStringA operator+(const CStdStringA& s1, PCWSTR pW)
 		return CStdStringW(pA) + sW;
 	}
 #else
-	friend inline CStdStringA operator+(PCWSTR pW, const CStdStringA& sA)
+	inline CStdStringA operator+(PCWSTR pW, const CStdStringA& sA)
 	{
 		return CStdStringA(pW) + sA;
 	}
-	friend inline CStdStringA operator+(PCSTR pA, const CStdStringW& sW)
+	inline CStdStringA operator+(PCSTR pA, const CStdStringW& sW)
 	{
 		return pA + CStdStringA(sW);
 	}
@@ -4182,13 +4182,13 @@ friend inline CStdStringA operator+(const CStdStringA& s1, PCWSTR pW)
 	sRet.append(1, t);
 	return sRet;
 }*/
-friend inline CStdStringW operator+(const CStdStringW& s1, PCWSTR pW)
+inline CStdStringW operator+(const CStdStringW& s1, PCWSTR pW)
 {
 	CStdStringW sRet(SSREF(s1));
 	sRet.append(pW);
 	return sRet;
 }
-friend inline CStdStringW operator+(PCWSTR pW, const CStdStringW& sW)
+inline CStdStringW operator+(PCWSTR pW, const CStdStringW& sW)
 {
 	CStdStringW sRet;
 	CStdStringW::size_type nObjSize = sW.size();
@@ -4201,11 +4201,11 @@ friend inline CStdStringW operator+(PCWSTR pW, const CStdStringW& sW)
 	return sRet;
 }
 
-friend inline CStdStringW operator+(const CStdStringW& s1, const CStdStringA& s2)
+inline CStdStringW operator+(const CStdStringW& s1, const CStdStringA& s2)
 {
 	return s1 + CStdStringW(s2);
 }
-friend inline CStdStringW operator+(const CStdStringW& s1, PCSTR pA)
+inline CStdStringW operator+(const CStdStringW& s1, PCSTR pA)
 {
 	return s1 + CStdStringW(pA);
 }
@@ -4509,6 +4509,6 @@ struct StdStringEqualsNoCaseA
 #ifdef __BORLANDC__
     #pragma option pop  // Turn back on inline function warnings
 //	#pragma warn +inl   // Turn back on inline function warnings
-#endif
+//#endif
 
 #endif	// #ifndef STDSTRING_H

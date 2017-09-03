@@ -8,7 +8,7 @@
 #include "TFCServerGP.h"
 #include "DeadlockDetector.h"
 #include "ThreadMonitor.h"
-
+#include <stdint.h>
 
 //////////////////////////////////////////////////////////////////////////////////////////
 AsyncFuncQueue::AsyncFuncQueue()

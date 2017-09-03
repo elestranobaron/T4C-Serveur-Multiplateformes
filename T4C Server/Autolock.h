@@ -1,5 +1,5 @@
 #ifndef __AUTOLOCK_H
-#define __AUTOLOCH_H
+#define __AUTOLOCK_H
 #include <pthread.h>
 #if defined(_MSC_VER)
 class Autolock {
