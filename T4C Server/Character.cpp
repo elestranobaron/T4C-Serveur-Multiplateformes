@@ -95,7 +95,17 @@ static char THIS_FILE[]=__FILE__;
 #define DB_CurrentSerieMurder	41
 #define DB_CurrentPvpPoint		42
 #define TRACE printf
-                                  
+typedef struct __SYSTEMTIME
+{
+	WORD wYear;
+	WORD wMonth;
+	WORD wDayOfWeek;
+	WORD wDay;
+	WORD wHour;
+	WORD wMinute;
+	WORD wSecond;
+	WORD wMilliseconds;
+} SYSTEMTIME;
 int Character::sm_n64XPchart[MAX_LEVEL]; //__int64
 
 BYTE Character::m_bSkillPnt[ (MAX_LEVEL / 10) + 1 ] = {
@@ -721,7 +731,7 @@ char Character::load_character(CString new_name, CString new_account, LPBYTE lpb
 		_LOG_DEBUG
 			LOG_DEBUG_HIGH,
 			"Reset_character %s.",
-			new_name
+			new_name.c_str()
 		LOG_
 	reset_character();
     
@@ -819,7 +829,7 @@ char Character::load_character(CString new_name, CString new_account, LPBYTE lpb
 		_LOG_DEBUG
 			LOG_WARNING,
 			"Login character %s.",
-			new_name
+			new_name.c_str()
 		LOG_
 
             }
@@ -1422,7 +1432,7 @@ BOOL Character::SaveCharacter( BOOL boCallback )
 		"CurrentPvpPoint=%i "
 		"WHERE UserID=%u",
 
-        (LPCTSTR)GetTrueName(),
+        (LPCTSTR)GetTrueName().c_str(),
 		GetTrueSTR(),
 		GetTrueEND(),
 		GetTrueAGI(),
@@ -1448,14 +1458,14 @@ BOOL Character::SaveCharacter( BOOL boCallback )
 		Appearance,
         nKarma,
         bGender,
-        (LPCTSTR)csListingTitle,
-        (LPCTSTR)csListingMisc,
+        (LPCTSTR)csListingTitle.c_str(),
+        (LPCTSTR)csListingMisc.c_str(),
         moveExhaust,
         mentalExhaust,
         attackExhaust,
 		// asteryth guild
 		//(LPCTSTR)csGuildName, // BLBLBL // asteryth modifié pour avoir un get/set
-		GetGuildName(),
+		GetGuildName().c_str(),
 		GetGuildID(),
 		GetGuildChestAccess(),
 		// asteryth pvp ranking
@@ -1697,7 +1707,7 @@ int Character::LoadCharacter
 				Corpse = wTemp;
 			
 			ODBCCharRead.GetDouble( DB_XP, &dblTemp );
-			SetXP( (signed __int64)dblTemp );
+			SetXP( (uint64_t)dblTemp );//signed __int64
             TRACE( ".%f", dblTemp );
 		
 			FETCH_WORD( DB_StatPnts );
@@ -1885,7 +1895,7 @@ int Character::LoadCharacter
                         Objects *lpuItem = new Objects();
                         
                         // If object could be created
-                        if( lpuItem->Create( U_OBJECT, Unit::GetIDFromName( lpLoadedItem->lpszObjType, U_OBJECT, TRUE ) ) )
+                        if( lpuItem->Create( U_OBJECT, Unit::GetIDFromName( (LPCSTR)lpLoadedItem->lpszObjType, U_OBJECT, TRUE ) ) )
 						{
                             
                             // Temporarly replace the unit's ID to load its flags, boosts and effects
@@ -2038,7 +2048,7 @@ int Character::LoadCharacter
                         Objects *lpuItem = new Objects();
                         
                         // If object could be created
-                        if( lpuItem->Create( U_OBJECT, Unit::GetIDFromName( lpLoadedItem->lpszObjType, U_OBJECT, TRUE ) ) ){
+                        if( lpuItem->Create( U_OBJECT, Unit::GetIDFromName( (LPCSTR)lpLoadedItem->lpszObjType, U_OBJECT, TRUE ) ) ){
                             
                             // Temporarly replace the unit's ID to load its flags, boosts and effects
                             dwTempID = lpuItem->GetID();
@@ -2231,7 +2241,7 @@ int Character::LoadCharacter
 					while( ODBCCharRead.Fetch() )
 					{																		
 						lpSkill = new USER_SKILL;
-						ZeroMemory( lpSkill, sizeof( USER_SKILL ) );
+						/*ZeroMemory*/bzero( lpSkill, sizeof( USER_SKILL ) );
 						
 						DWORD dwSkillID = 0;
                         ODBCCharRead.GetDWORD( DB_SpellID, &dwSkillID );
@@ -3007,8 +3017,8 @@ BOOL Character::can_get(WorldPos where, Objects *obj)
         _LOG_DEBUG
             LOG_WARNING,
             "Player %s tried to get a non-item named %s.",
-            GetTrueName(),
-            obj->GetName( _DEFAULT_LNG )
+            GetTrueName().c_str(),
+            obj->GetName( _DEFAULT_LNG ).c_str()
         LOG_
         return false;
     }
@@ -3215,9 +3225,9 @@ Unit * Character::DropUnit
         _LOG_ITEMS
             LOG_MISC_1,
             "Player %s dropped %u item %s ID( %s ) at ( %u, %u, %u )",
-            GetTrueName(),
+            GetTrueName().c_str(),
             qty,
-            droppedObj->GetName( _DEFAULT_LNG ),
+            droppedObj->GetName( _DEFAULT_LNG ).c_str(),
             lpszID,
             where.X,
             where.Y,
@@ -4152,7 +4162,7 @@ void Character::PacketSingleEquip
             sending << (long)0;
         }
 
-		sending << (CString &)lpuUnit->GetName( GetLang() );
+		sending << (CString )lpuUnit->GetName( GetLang() );
 	}
 	else
 	{
@@ -5235,7 +5245,7 @@ void Character::Death
     // Get the WL before it is changed.
     WorldPos wlPlayerPos = GetWL();
 
-    __int64 nXP = xp;
+    __int64_t nXP = xp; // __int64
 
     DWORD goldLoss = 0;
 
@@ -5296,7 +5306,7 @@ void Character::Death
 			}else{    
 				invSpillList.ToHead();
 				while( invSpillList.QueryNext() ){            
-					csTemp.Format( "%s, ", invSpillList.Object()->GetName( _DEFAULT_LNG ) );
+					csTemp.Format( "%s, ", invSpillList.Object()->GetName( _DEFAULT_LNG ).c_str() );
 					csText += csTemp;
 					if( !(nItemsLogged % 10) && nItemsLogged != 0 ){
 						_LOG_DEATH
@@ -5321,7 +5331,7 @@ void Character::Death
 			}else{    
 				equipSpillList.ToHead();
 				while( equipSpillList.QueryNext() ){            
-					csTemp.Format( "%s, ", equipSpillList.Object()->GetName( _DEFAULT_LNG ) );
+					csTemp.Format( "%s, ", equipSpillList.Object()->GetName( _DEFAULT_LNG ).c_str() );
 					csText += csTemp;
 					if( !(nItemsLogged % 10) && nItemsLogged != 0 ){
 						_LOG_DEATH
@@ -5888,12 +5898,12 @@ void Character::SetAppearance( WORD wAppearance ){
 }
 */
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-__int64 Character::GetXP(){
+int Character::GetXP(){ // __int64
     CAutoLock autoStatsLock( &statsLock );
 	return xp;
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-void Character::SetXP(__int64 XP){
+void Character::SetXP(int XP){ // __int64
     CAutoLock autoStatsLock( &statsLock );
 	xp = XP;
 }
@@ -7062,7 +7072,9 @@ void Character::SavingStart( void )
         (LPCTSTR)GetTrueName()
     LOG_
 
-    ResetEvent( hCreationEvent );
+    pthread_cond_t m_condition;
+	pthread_cond_broadcast(&m_condition);
+    //ResetEvent( hCreationEvent );
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -7078,7 +7090,9 @@ void Character::SavingStop( void )
         (LPCTSTR)GetTrueName()
     LOG_
 
-    SetEvent( hCreationEvent );
+    pthread_cond_t m_condition;
+	pthread_cond_broadcast(&m_condition);
+    //SetEvent( hCreationEvent );
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -7152,16 +7166,16 @@ void Character::PacketSkills
 	sending << (short)GetATTACK();
     sending << (short)GetTrueATTACK();
 	//csText = "Attack";
-	sending << (CString &)CString( _STR( 449, GetLang() ) ) ;
-    sending << (CString &)CString( _STR( 7889, GetLang() ) ) ;
+	sending << (CString )CString( _STR( 449, GetLang() ) ) ;
+    sending << (CString )CString( _STR( 7889, GetLang() ) ) ;
 	
 	sending << (short)__SKILL_DODGE;
 	sending << (char)0;
 	sending << (short)GetDODGE();
     sending << (short)GetTrueDODGE();
 	//csText = "Dodge";
-	sending << (CString &)CString( _STR( 450, GetLang() ) );
-    sending << (CString &)CString( _STR( 7890, GetLang() ) );
+	sending << (CString )CString( _STR( 450, GetLang() ) );
+    sending << (CString )CString( _STR( 7890, GetLang() ) );
 
 	tlSentSkills.ToHead();
 	while( tlSentSkills.QueryNext() )
@@ -7196,8 +7210,8 @@ void Character::PacketSkills
 
 		sending << (short)lpUserSkill->GetSkillPnts( this );
         sending << (short)lpUserSkill->GetTrueSkillPnts();
-		sending << (CString &)(CString)lpSkill->GetName( GetLang() );
-        sending << (CString &)(CString)lpSkill->GetDesc( GetLang() );
+		sending << (CString )(CString)lpSkill->GetName( GetLang() );
+        sending << (CString )(CString)lpSkill->GetDesc( GetLang() );
 	}
 }
 
@@ -7583,14 +7597,14 @@ void Character::SendPrivateMessage
 		else dwNameColor = U_PC_COLOR;
     }
     sending << (CString &)csMessage;
-    sending << (CString &)lpuTarget->GetName( GetLang() );
+    sending << (CString )lpuTarget->GetName( GetLang() );
 	sending << (long)dwNameColor;
 
     SendPlayerMessage( sending ); 
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
-__int64 Character::NextLevelXP( void )
+int Character::NextLevelXP( void ) // __int64
 //////////////////////////////////////////////////////////////////////////////////////////
 // Returns the XP needed to raise next level.
 // 
@@ -7611,7 +7625,7 @@ __int64 Character::NextLevelXP( void )
     return sm_n64XPchart[ wLevel ];
 }
 //////////////////////////////////////////////////////////////////////////////////////////
-__int64 Character::PreviousLevelXP( void )
+int Character::PreviousLevelXP( void ) // __int64
 //////////////////////////////////////////////////////////////////////////////////////////
 // Returns the XP needed to raise next level.
 // 
@@ -7633,7 +7647,7 @@ __int64 Character::PreviousLevelXP( void )
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
-__int64 Character::XPtoLevel( void )
+int Character::XPtoLevel( void ) // __int64
 //////////////////////////////////////////////////////////////////////////////////////////
 // Returns the XP left before raising to next level.
 // 
@@ -7655,7 +7669,7 @@ __int64 Character::XPtoLevel( void )
             _LOG_DEBUG
                 LOG_CRIT_ERRORS,
                 "Crashed Character::XPtoLevel, character %s.",
-                GetName( _DEFAULT_LNG )
+                GetName( _DEFAULT_LNG ).c_str()
             LOG_
         }catch(...){
         }
@@ -8090,8 +8104,8 @@ bool Character::ExecAutoCombat( void )
                     _LOG_DEBUG
                         LOG_CRIT_ERRORS,
                         "Crashed Character::ExecAutoCombat while calling TFCMAIN::Attack, Character %s target %s(%u) type %u.",
-                        GetName( _DEFAULT_LNG ),
-                        target->GetName( _DEFAULT_LNG ),
+                        GetName( _DEFAULT_LNG ).c_str(),
+                        target->GetName( _DEFAULT_LNG ).c_str(),
                         target->GetStaticReference(),
                         target->GetType()
                     LOG_
@@ -8206,7 +8220,7 @@ void Character::PacketRobBackpack
 			sending << (long) lpuObject->GetID();
             sending << (short)lpuObject->GetStaticReference();
             sending << (long) lpuObject->GetQty();
-            sending << (CString &)lpuObject->GetName( robber->GetLang() );
+            sending << (CString )lpuObject->GetName( robber->GetLang() );
 		}
 		lptluBackpack->Unlock();
 	}
@@ -8270,9 +8284,9 @@ void Character::JunkItems
 				_LOG_ITEMS
 					LOG_MISC_1,
 					"Player %s junked %u item %s ID( %s )",
-					GetTrueName(),
+					GetTrueName().c_str(),
 					logQty,
-					u->GetName( _DEFAULT_LNG ),
+					u->GetName( _DEFAULT_LNG ).c_str(),
 					lpszID
 				LOG_
 
@@ -8291,7 +8305,7 @@ void Character::JunkItems
                 SendSystemMessage(
                     format(
                         _STR( 7260, GetLang() ),
-                        u->GetName( GetLang() )
+                        u->GetName( GetLang() ).c_str()
                     )
                 );
             }
@@ -9323,9 +9337,9 @@ void Character::MoveObjectFromBackpackToChest2
 			_LOG_ITEMS
 				LOG_MISC_1,
 				"Player %s added %u item %s ID( %s ) to chest",
-				GetTrueName(),
+				GetTrueName().c_str(),
 				dwQty,
-				csItemName,
+				csItemName.c_str(),
 				szItemID
 			LOG_
 		}
@@ -9410,9 +9424,9 @@ void Character::MoveObjectFromChestToBackpack2
 			_LOG_ITEMS
 				LOG_MISC_1,
 				"Player %s removed %u item %s ID( %s ) from chest",
-				GetTrueName(),
+				GetTrueName().c_str(),
 				dwQty,
-				csItemName,
+				csItemName.c_str(),
 				szItemID
 			LOG_
 
@@ -9932,7 +9946,7 @@ void Character::SendBackpackContentPacket()
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
-unsigned __int64 Character::GetGodFlags( void )
+unsigned int Character::GetGodFlags( void ) // __int64
 //////////////////////////////////////////////////////////////////////////////////////////
 {
 	Players *user = (Players *)ThisPlayer;

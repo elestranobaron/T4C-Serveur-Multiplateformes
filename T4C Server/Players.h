@@ -106,7 +106,7 @@ public:
 	void            RemovePlayer(CString name);
 	void            AddToHistory(unsigned long historyDate, CString historyText);//BLBLBL pour enregistrer l'historique des punitions modo.
 
-    static char *   QuotedAccount( char szBuffer[], CString &csAccount );
+    static char *   QuotedAccount( char szBuffer[], CString csAccount ); // passage par ref
 	void            SetAccount(CString name);
 	CString         GetAccount() const;
     CString         GetFullAccountName() const; // Account + realm

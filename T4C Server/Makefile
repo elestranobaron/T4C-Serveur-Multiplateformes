@@ -1,6 +1,6 @@
 # Project: Linux_LAUNCHER
 # Makefile created by EleStrAnoBaRoN
-
+#character.cppp 2041 et 1888 modifie casts LPCSTR
 CPP  = clang++
 CC   = gcc
 WINDRES = windres.exe
@@ -387,7 +387,7 @@ LIBS =  #-lm #-lSDLmain -lSDL -lSDL_image -pthread
 INCS =  
 CXXINCS = 
 BIN  = Linux_SERVER
-CXXFLAGS = $(CXXINCS) -g -Wall -Wextra -Werror -Wno-unknown-pragmas -Wno-missing-field-initializers -Wno-unused-value -Wno-unused-parameter -Wno-delete-incomplete -Wno-overflow -Wno-int-to-pointer-cast -Wno-implicit-fallthrough -Wno-endif-labels -Wno-comment -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-c++11-extensions -Wno-missing-declarations -Wno-overloaded-virtual -Wno-uninitialized -Wno-mismatched-new-delete -Wno-unused-private-field -Wno-new-returns-null#-fmax-errors=8
+CXXFLAGS = $(CXXINCS) -g -Wall -Wextra -Werror -Wno-unknown-pragmas -Wno-missing-field-initializers -Wno-unused-value -Wno-unused-parameter -Wno-delete-incomplete -Wno-overflow -Wno-int-to-pointer-cast -Wno-implicit-fallthrough -Wno-endif-labels -Wno-comment -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-c++11-extensions -Wno-missing-declarations -Wno-overloaded-virtual -Wno-uninitialized -Wno-mismatched-new-delete -Wno-unused-private-field -Wno-new-returns-null -Wno-format -Wno-invalid-source-encoding -Wno-c++11-compat-deprecated-writable-strings -Wno-unused-variable -Wno-shift-count-overflow#-fmax-errors=8
 CFLAGS = $(INCS)  
 
 .PHONY: all all-before all-after clean clean-custom
