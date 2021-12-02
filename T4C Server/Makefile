@@ -20,7 +20,6 @@ OBJ  = AreaSensitiveEffect.o \
        Commands.o \
        CommCenter.o \
        Creatures.o \
-       C_SERVIC.CPP \
        DeadlockDetector.o \
        DebugLockManager.o \
        DebugLoggerAPI.o \
@@ -28,7 +27,6 @@ OBJ  = AreaSensitiveEffect.o \
        DynamicFlags.o \
        DynObjManager.o \
        EncRandom.o \
-       EXPFLTR.CPP \
        FormatPlayerName.o \
        GAME_RULES.o \
        Group.o \
@@ -51,7 +49,6 @@ OBJ  = AreaSensitiveEffect.o \
        OldLogger.o \
        PacketManager.o \
        PlayerManager.o \
-       PLAYERS.CPP \
        PVPSentence.o \
        Rain.o \
        Random.o \
@@ -175,25 +172,25 @@ OBJ  = AreaSensitiveEffect.o \
        UDP/QueueVector.o \
        UDP/Semaphore.o \
        UDP/Thread.o \
-       World\ Objects/Armor.o \
-       World\ Objects/Book.o \
-       World\ Objects/Bow.o \
-       World\ Objects/ChestStructure.o \
-       World\ Objects/Container.o \
-       World\ Objects/DestinyGem.o \
-       World\ Objects/Doors.o \
-       World\ Objects/Food.o \
-       World\ Objects/GemOfLife.o \
-       World\ Objects/Gold.o \
-       World\ Objects/IcySaber.o \
-       World\ Objects/ItemAreaLink.o \
-       World\ Objects/ObjectStatsSetup.o \
-       World\ Objects/Potions.o \
-       World\ Objects/Sign.o \
-       World\ Objects/SpellBook.o \
-       World\ Objects/StandardObject.o \
-       World\ Objects/Sword.o \
-       World\ Objects/World\ Objects.o $(RES)
+       World\ Objects/Armor.o \
+       World\ Objects/Book.o \
+       World\ Objects/Bow.o \
+       World\ Objects/ChestStructure.o \
+       World\ Objects/Container.o \
+       World\ Objects/DestinyGem.o \
+       World\ Objects/Doors.o \
+       World\ Objects/Food.o \
+       World\ Objects/GemOfLife.o \
+       World\ Objects/Gold.o \
+       World\ Objects/IcySaber.o \
+       World\ Objects/ItemAreaLink.o \
+       World\ Objects/ObjectStatsSetup.o \
+       World\ Objects/Potions.o \
+       World\ Objects/Sign.o \
+       World\ Objects/SpellBook.o \
+       World\ Objects/StandardObject.o \
+       World\ Objects/Sword.o \
+       World\ Objects/World\ Objects.o $(RES)
 LINKOBJ  = AreaSensitiveEffect.o \
        Assertion.o \
        AsyncFuncQueue.o \
@@ -209,7 +206,6 @@ LINKOBJ  = AreaSensitiveEffect.o \
        Commands.o \
        CommCenter.o \
        Creatures.o \
-       C_SERVIC.CPP \
        DeadlockDetector.o \
        DebugLockManager.o \
        DebugLoggerAPI.o \
@@ -217,7 +213,6 @@ LINKOBJ  = AreaSensitiveEffect.o \
        DynamicFlags.o \
        DynObjManager.o \
        EncRandom.o \
-       EXPFLTR.CPP \
        FormatPlayerName.o \
        GAME_RULES.o \
        Group.o \
@@ -240,7 +235,6 @@ LINKOBJ  = AreaSensitiveEffect.o \
        OldLogger.o \
        PacketManager.o \
        PlayerManager.o \
-       PLAYERS.CPP \
        PVPSentence.o \
        Rain.o \
        Random.o \
@@ -364,25 +358,25 @@ LINKOBJ  = AreaSensitiveEffect.o \
        UDP/QueueVector.o \
        UDP/Semaphore.o \
        UDP/Thread.o \
-       World\ Objects/Armor.o \
-       World\ Objects/Book.o \
-       World\ Objects/Bow.o \
-       World\ Objects/ChestStructure.o \
-       World\ Objects/Container.o \
-       World\ Objects/DestinyGem.o \
-       World\ Objects/Doors.o \
-       World\ Objects/Food.o \
-       World\ Objects/GemOfLife.o \
-       World\ Objects/Gold.o \
-       World\ Objects/IcySaber.o \
-       World\ Objects/ItemAreaLink.o \
-       World\ Objects/ObjectStatsSetup.o \
-       World\ Objects/Potions.o \
-       World\ Objects/Sign.o \
-       World\ Objects/SpellBook.o \
-       World\ Objects/StandardObject.o \
-       World\ Objects/Sword.o \
-       World\ Objects/World\ Objects.o $(RES)
+       World\ Objects/Armor.o \
+       World\ Objects/Book.o \
+       World\ Objects/Bow.o \
+       World\ Objects/ChestStructure.o \
+       World\ Objects/Container.o \
+       World\ Objects/DestinyGem.o \
+       World\ Objects/Doors.o \
+       World\ Objects/Food.o \
+       World\ Objects/GemOfLife.o \
+       World\ Objects/Gold.o \
+       World\ Objects/IcySaber.o \
+       World\ Objects/ItemAreaLink.o \
+       World\ Objects/ObjectStatsSetup.o \
+       World\ Objects/Potions.o \
+       World\ Objects/Sign.o \
+       World\ Objects/SpellBook.o \
+       World\ Objects/StandardObject.o \
+       World\ Objects/Sword.o \
+       World\ Objects/World\ Objects.o $(RES)
 LIBS =  #-lm #-lSDLmain -lSDL -lSDL_image -pthread
 INCS =  
 CXXINCS = 

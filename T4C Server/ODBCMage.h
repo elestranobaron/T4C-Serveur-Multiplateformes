@@ -11,7 +11,7 @@
 
 //#include <windows.h>
 #include <stdio.h>
-#include <sql.h>
+#include <sql.h> // unixodbc-dev
 #include <sqlext.h>
 #include "vdlist.h"
 #include "Lock.h"
