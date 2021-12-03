@@ -51,8 +51,8 @@ void ReportLastError(void);
 
 // BEGIN : Mestoph -> Anti SpeedHack
 //#define CHEAT_KEY			"CheatProtection"
-//#define SH_DEF_MOVMENTS		35  //75, BL : apparement speedhack reglé à 1.2 passe avec cette valeur
-//#define SH_DEF_DELAY		5  //10, BL : trop large pour détecter les "petits coups d'accelerateur"
+//#define SH_DEF_MOVMENTS		35  //75, BL : apparement speedhack reglï¿½ ï¿½ 1.2 passe avec cette valeur
+//#define SH_DEF_DELAY		5  //10, BL : trop large pour dï¿½tecter les "petits coups d'accelerateur"
 // END : Mestoph -> Anti SpeedHack
 
 //#define DEBUG_EXCEPTION

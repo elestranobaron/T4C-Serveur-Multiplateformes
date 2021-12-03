@@ -8,6 +8,7 @@
     #define CMP stricmp
 #elif defined(__GNUC__)
 	#include <stdbool.h>
+#include <sqltypes.h>
 	#include "Stdstrings/stdstring.h"
 	#define CONFIG_FILE ".config.cfg"
 	#define TRUE true
@@ -17,7 +18,7 @@
 	//# define CREATE_SUSPENDED 0x00000004
 	//typedef int64_t __int64;
 	typedef const char* LPCTSTR;
-	typedef bool BOOL;
+	// typedef bool BOOL; // Already declared in sqltype which comes because UINT was wrongly designed by ME
 	typedef void* PVOID;
 	typedef PVOID HANDLE;
 	typedef HANDLE HKEY;
@@ -28,7 +29,7 @@
 	typedef BYTE* LPBYTE;
 	typedef void VOID;
 	typedef VOID* LPVOID;
-	typedef unsigned int UINT;
+	//typedef unsigned int UINT;
 	typedef int INT;
 	typedef INT* LPINT;
 	typedef long LONG;
