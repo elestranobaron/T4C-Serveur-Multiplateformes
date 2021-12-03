@@ -283,22 +283,22 @@ bool AddIoToQueue(IoOperationStruct *IoStruct, bool modify = false)
     return res;
 }
 
-struct HANDLE
+struct HANDLEQUEUE
 {
     shared_ptr<SafeQueue<IoContext*>> q;
     int fd;
     unsigned int key;
 };
 
-HANDLE CreateIoCompletionPort()
+HANDLEQUEUE CreateIoCompletionPort()
 {
-    HANDLE port;
+    HANDLEQUEUE port;
     port.q = make_shared<SafeQueue<IoContext*>>();
     port.fd = 0;
     return port;
 }
 
-void CloseHandle(HANDLE Handle)
+void CloseHandle(HANDLEQUEUE Handle)
 {
     Handle.q.reset();
     if (Handle.fd)
@@ -306,16 +306,16 @@ void CloseHandle(HANDLE Handle)
     Handle.fd = 0;
 }
 
-HANDLE BindToPort(HANDLE port, int fd, unsigned int key)
+HANDLEQUEUE BindToPort(HANDLEQUEUE port, int fd, unsigned int key)
 {
-    HANDLE handle;
+    HANDLEQUEUE handle;
     handle.fd = fd;
     handle.q = port.q;
     handle.key = key;
     return handle;
 }
 
-bool GetQueuedCompletionStatus(HANDLE port, unsigned int *num_of_bytes, IoContext **ctx, unsigned int *key, unsigned int wait_time)
+bool GetQueuedCompletionStatus(HANDLEQUEUE port, unsigned int *num_of_bytes, IoContext **ctx, unsigned int *key, unsigned int wait_time)
 {
     port.q->Pop(*ctx);
     *num_of_bytes = (*ctx)->bytes;
@@ -327,7 +327,7 @@ bool GetQueuedCompletionStatus(HANDLE port, unsigned int *num_of_bytes, IoContex
     return true;
 }
 
-bool WriteFile(HANDLE Handle, const void *data, size_t size, IoContext * Ctx)
+bool WriteFile(HANDLEQUEUE Handle, const void *data, size_t size, IoContext * Ctx)
 {
     if (!data || !size || !Ctx)
         return false;
@@ -344,7 +344,7 @@ bool WriteFile(HANDLE Handle, const void *data, size_t size, IoContext * Ctx)
     return AddIoToQueue(IoStruct);
 }
 
-bool ReadFile(HANDLE Handle, void *data, size_t size, IoContext *Ctx)
+bool ReadFile(HANDLEQUEUE Handle, void *data, size_t size, IoContext *Ctx)
 {
     if (!data || !size || !Ctx)
         return false;
@@ -454,7 +454,7 @@ void start_io_ports()
     }
 }
 
-HANDLE port;
+HANDLEQUEUE port;
 
 std::condition_variable cv;
 std::mutex mtx;
