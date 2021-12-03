@@ -11,6 +11,7 @@
 #include <sqltypes.h>
 	#include "Stdstrings/stdstring.h"
 	#define CONFIG_FILE ".config.cfg"
+#define TRACE printf
 	#define TRUE true
 	#define FALSE false
 	#define CMP strcasecmp

@@ -94,7 +94,7 @@ static char THIS_FILE[]=__FILE__;
 #define DB_BestSerieMurder		40
 #define DB_CurrentSerieMurder	41
 #define DB_CurrentPvpPoint		42
-#define TRACE printf
+#include "windows_linux.h"
 typedef struct __SYSTEMTIME
 {
 	WORD wYear;
