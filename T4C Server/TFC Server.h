@@ -255,7 +255,7 @@ public:
     //CArray<int,int> m_aStillItems;
 	
 	std::vector<std::pair<sMagicWorldSpell,sMagicWorldSpell> > m_aSpellWorld;
-	std::vector<std::pair<int,int> > m_aStillItems;
+	std::vector< int > m_aStillItems;
 
 	list< sArenaLocation > arenaLocationList;
 
