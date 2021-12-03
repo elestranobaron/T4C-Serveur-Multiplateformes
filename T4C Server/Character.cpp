@@ -10013,7 +10013,7 @@ void Character::CheckSpeedHack( WorldPos newPos )
 	prevPos = newPos;
 }
 END : Remove BL Anti SpeedHack */
-
+/*
 bool Character::AnalyseActionWorld(char *pTxt)
 {
    for(int i=0;i<theApp.m_aSpellWorld.size();i++)
@@ -10031,3 +10031,4 @@ bool Character::AnalyseActionWorld(char *pTxt)
    }
    return false;
 }
+*/

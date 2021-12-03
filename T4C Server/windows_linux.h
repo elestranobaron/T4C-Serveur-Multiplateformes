@@ -108,6 +108,9 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
+#include <cstdio>
+#include <cstring>
+#include <cerrno>
 using namespace std;
 
 template <class T>
