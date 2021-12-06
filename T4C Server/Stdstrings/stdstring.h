@@ -4412,7 +4412,7 @@ inline CStdStringW WUFormatW(PCWSTR szwFormat, ...)
 	#define WUFormat				WUFormatW
 #else
 	//#define CStdString				CStdStringA
-	typedef CStdStringA				&CString;/////////CStdString;
+	typedef CStdStringA				CString;/////////CStdString;
 	#define WUSysMessage			WUSysMessageA
 	#define WUFormat				WUFormatA
 #endif

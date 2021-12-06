@@ -806,8 +806,8 @@ void ChatterChannels::SendChannelUsers
             CString csName = (*i).player->self->GetTrueName();
             // Packet their names
             sending << (CString &)csName;
-            sending << (CString &)(*i).player->self->GetTitle( getAccountNames );
-			sending << (CString &)(*i).player->self->GetGuild(getAccountNames); // steph ajout
+            sending << (CString /*&*/)(*i).player->self->GetTitle( getAccountNames );
+			sending << (CString /*&*/)(*i).player->self->GetGuild(getAccountNames); // steph ajout
 
             sending << (char)( (*i).listening ? 1 : 0 );
         }                
