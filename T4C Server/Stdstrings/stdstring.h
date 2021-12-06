@@ -63,7 +63,7 @@
 //			- Jim Cline
 //			- Jeff Kohn
 //			- Todd Heckel
-//			- Ullrich Pollähne
+//			- Ullrich Pollï¿½hne
 //			- Joe Vitaterna
 //			- Joe Woodbury
 //			- Aaron (no last name)
@@ -217,7 +217,7 @@
 //	  2000-APR-17 - Thanks to Joe Vitaterna for pointing out that ReverseFind
 //					is supposed to be a const function.
 //
-//	  2000-MAR-07 - Thanks to Ullrich Pollähne for catching a range bug in one
+//	  2000-MAR-07 - Thanks to Ullrich Pollï¿½hne for catching a range bug in one
 //					of the overloads of assign.
 //
 //    2000-FEB-01 - You can now use CStdString on the Mac with CodeWarrior!
@@ -2286,7 +2286,7 @@ public:
 			// <nChars> or the NULL terminator, whichever comes first.  Since we
 			// are about to call a less forgiving overload (in which <nChars>
 			// must be a valid length), we must adjust the length here to a safe
-			// value.  Thanks to Ullrich Pollähne for catching this bug
+			// value.  Thanks to Ullrich Pollï¿½hne for catching this bug
 
 			nChars		= SSMIN(nChars, str.length() - nStart);
 			MYTYPE strTemp(str.c_str()+nStart, nChars);
@@ -2307,7 +2307,7 @@ public:
 			// <nChars> or the NULL terminator, whichever comes first.  Since we
 			// are about to call a less forgiving overload (in which <nChars>
 			// must be a valid length), we must adjust the length here to a safe
-			// value. Thanks to Ullrich Pollähne for catching this bug
+			// value. Thanks to Ullrich Pollï¿½hne for catching this bug
 
 			nChars		= SSMIN(nChars, str.length() - nStart);
 
@@ -4108,7 +4108,7 @@ typedef CStdStr<OLECHAR>	CStdStringO;	// almost always CStdStringW
 // -----------------------------------------------------------------------------
 
 
-inline CStdStringA operator+(const CStdStringA& s1, const CStdStringA& s2) // apparement ajout de friend jusqu en ligne 4208 nécessaire // maintenant c contraire
+inline CStdStringA operator+(const CStdStringA& s1, const CStdStringA& s2) // apparement ajout de friend jusqu en ligne 4208 nï¿½cessaire // maintenant c contraire
 {
 	CStdStringA sRet(SSREF(s1));
 	sRet.append(s2);
@@ -4412,7 +4412,7 @@ inline CStdStringW WUFormatW(PCWSTR szwFormat, ...)
 	#define WUFormat				WUFormatW
 #else
 	//#define CStdString				CStdStringA
-	typedef CStdStringA				CString;/////////CStdString;
+	typedef CStdStringA				&CString;/////////CStdString;
 	#define WUSysMessage			WUSysMessageA
 	#define WUFormat				WUFormatA
 #endif

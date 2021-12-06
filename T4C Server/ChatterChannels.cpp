@@ -293,7 +293,7 @@ void ChatterChannels::Talk
     CAutoLock cLock( this );
 
     // If user got squelched or has no more shouts.
-    if( !lpSender->boCanShout /*|| !lpSender->boCanPage */){ //BLBLBL les pages n'ont rien à voir avec les CC...
+    if( !lpSender->boCanShout /*|| !lpSender->boCanPage */){ //BLBLBL les pages n'ont rien ï¿½ voir avec les CC...
 		
         time_t tTestExpiration;
 		time(&tTestExpiration);
@@ -366,7 +366,7 @@ void ChatterChannels::Talk
         }
     }
 
-    if( systemChannel ){//BLBLBL le channel PVP est spécial
+    if( systemChannel ){//BLBLBL le channel PVP est spï¿½cial
         // If the channel is locked by operators and the sender isn't a gameop
         if( (publicChannelsForOperators || ciChannelID=="PVP") && !( lpSender->GetGodFlags() & GOD_CHAT_MASTER ) ){
             //You may not shout right now
@@ -459,7 +459,7 @@ void ChatterChannels::SystemTalk //BLBLBL : new function to allow Server to talk
         // Search the system channels.
         i = mSystemChannels.find( ciChannelID );
         if( i == mSystemChannels.end() ){
-            return;//BLBL si aucune channel n'a pu être trouvée c'est que personne n'écoute ce canal, inutile d'envoyer.
+            return;//BLBL si aucune channel n'a pu ï¿½tre trouvï¿½e c'est que personne n'ï¿½coute ce canal, inutile d'envoyer.
         }
     }
     Channel &cChannel = (*i).second;
